@@ -1,8 +1,11 @@
+// libs
 import React from 'react';
+
+// styles
 import './style.scss';
 
-function index() {
-  return <div className="weekly-artist">Weekly Artist</div>;
-}
+const WeeklyArtist = () => (
+  <div className="weekly-artist-wrapper">Weekly Artist</div>
+);
 
-export default index;
+export default WeeklyArtist;

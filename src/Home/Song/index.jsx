@@ -1,8 +1,9 @@
+// libs
 import React from 'react';
+
+// styles
 import './style.scss';
 
-function index() {
-  return <div className="song">Song</div>;
-}
+const Song = () => <div className="song-wrapper">Song</div>;
 
-export default index;
+export default Song;

@@ -1,8 +1,9 @@
+// libs
 import React from 'react';
+
+// styles
 import './style.scss';
 
-function index() {
-  return <div className="top-hundred">Top 100</div>;
-}
+const TopHundred = () => <div className="top-hundred-wrapper">Top 100</div>;
 
-export default index;
+export default TopHundred;
