@@ -1,8 +1,9 @@
+// libs
 import React from 'react';
+
+// styles
 import './style.scss';
 
-function index() {
-  return <div className="header">Header</div>;
-}
+const Header = () => <div className="header-wrapper">Header</div>;
 
-export default index;
+export default Header;

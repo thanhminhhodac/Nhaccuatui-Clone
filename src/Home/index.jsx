@@ -1,4 +1,7 @@
+// libs
 import React from 'react';
+
+// components
 import Header from './Header';
 import Footer from './Footer';
 import Slider from './Slider';
@@ -13,38 +16,31 @@ import HotTopic from './HotTopic';
 import MVRanking from './MVRanking';
 import SongRanking from './SongRanking';
 
+// styles
 import './style.scss';
 
-function index() {
-  return (
-    <div className="wrapper">
-      <Header />
-      <div className="main-wrapper">
-        <div className="container">
-          <Slider />
-          <div className="main">
-            <div className="col-left">
-              <PlaylistSuggestion />
-              <PlaylistSuggestion />
-              <PlaylistSuggestion />
-              <NewPublished />
-              <HotMV />
-              <Song />
-              <TopHundred />
-              <WeeklyArtist />
-            </div>
-            <div className="col-right">
-              <SongRanking />
-              <MVRanking />
-              <Banner />
-              <HotTopic />
-            </div>
-          </div>
-        </div>
+const Home = () => (
+  <div className="home-wrapper">
+    <Header />
+    <div className="main-wrapper">
+      <div className="main-wrapper-inner">
+        <Slider />
+        <PlaylistSuggestion />
+        <PlaylistSuggestion />
+        <PlaylistSuggestion />
+        <NewPublished />
+        <HotMV />
+        <Song />
+        <TopHundred />
+        <WeeklyArtist />
+        <SongRanking />
+        <MVRanking />
+        <Banner />
+        <HotTopic />
       </div>
-      <Footer />
     </div>
-  );
-}
+    <Footer />
+  </div>
+);
 
-export default index;
+export default Home;
