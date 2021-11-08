@@ -1,8 +1,9 @@
+// lib
 import React from 'react';
+
+// style
 import './style.scss';
 
-function index() {
-  return <div className="hot-mv">Hot MV</div>;
-}
+const HotMV = () => <div className="hot-mv-wrapper">Hot MV</div>;
 
-export default index;
+export default HotMV;
