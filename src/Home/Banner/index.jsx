@@ -1,8 +1,9 @@
+// lib
 import React from 'react';
+
+// style
 import './style.scss';
 
-function index() {
-  return <div className="banner">Banner</div>;
-}
+const Banner = () => <div className="banner-wrapper">Banner</div>;
 
-export default index;
+export default Banner;
