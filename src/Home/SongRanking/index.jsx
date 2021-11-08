@@ -1,8 +1,11 @@
+// lib
 import React from 'react';
+
+// style
 import './style.scss';
 
-function index() {
-  return <div className="song-ranking">Song ranking</div>;
-}
+const SongRanking = () => (
+  <div className="song-ranking-wrapper">Song ranking</div>
+);
 
-export default index;
+export default SongRanking;

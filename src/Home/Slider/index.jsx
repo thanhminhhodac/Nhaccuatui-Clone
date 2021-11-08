@@ -1,8 +1,9 @@
+// libs
 import React from 'react';
+
+// styles
 import './style.scss';
 
-function index() {
-  return <div className="slider">Slider</div>;
-}
+const Slider = () => <div className="slider-wrapper">Slider</div>;
 
-export default index;
+export default Slider;
