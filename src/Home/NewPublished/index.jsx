@@ -1,8 +1,11 @@
+// lib
 import React from 'react';
+
+// styles
 import './style.scss';
 
-function index() {
-  return <div className="new-published">New Published</div>;
-}
+const NewPublished = () => (
+  <div className="new-published-wrapper">New Published</div>
+);
 
-export default index;
+export default NewPublished;
