@@ -16,16 +16,18 @@ const Functional = () => {
   const listIcon = [
     {
       image: { src: icUpload, alt: 'upload icon' },
+      size: 'medium',
     },
     {
       image: { src: icStore, alt: 'upload icon' },
+      size: 'medium',
     },
   ];
 
   return (
     <div className="functional">
       {listIcon.map(icon => (
-        <Icon image={icon.image} />
+        <Icon image={icon.image} size={icon.size} />
       ))}
     </div>
   );
