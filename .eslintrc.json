@@ -28,6 +28,15 @@
     "react/jsx-props-no-spreading": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "linebreak-style": ["error", "windows"],
-    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }]
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectExpression": { "consistent": true, "multiline": true },
+        "ObjectPattern": { "consistent": true, "multiline": true },
+        "ImportDeclaration": { "consistent": true, "multiline": true },
+        "ExportDeclaration": "never"
+      }
+    ]
   }
 }

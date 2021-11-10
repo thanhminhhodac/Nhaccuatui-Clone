@@ -8,16 +8,14 @@ import { Button } from '../../components/Button';
 // style
 import './style.scss';
 
-export const Authentication = ({
-  loggedIn, register, login, logout,
-}) => (
+export const Authentication = ({ loggedIn, register, login, logout }) => (
   <div className="Authentication">
     {loggedIn ? (
       <Button size="medium" onClick={logout} label="Đăng xuất" />
     ) : (
       <>
-        <Button size="medium" onClick={register} label="Đăng ký" />
-        <Button size="medium" onClick={login} label="Đăng nhập" primary />
+        <Button size="medium" onClick={login} label="Đăng nhập" />
+        <Button size="medium" onClick={register} label="Đăng ký" primary />
       </>
     )}
   </div>
