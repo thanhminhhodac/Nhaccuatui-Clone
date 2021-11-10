@@ -19,7 +19,7 @@ export const UploadIcon = Template.bind({});
 UploadIcon.args = {
   image: {
     src: Upload,
-    alt: 'Upload icon',
+    alt: 'pload icon',
   },
 };
 
