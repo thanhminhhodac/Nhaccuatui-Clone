@@ -1,0 +1,16 @@
+.menu {
+  &-item {
+    font-size: 14px;
+    color: #222;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+      color: #2daaed;
+    }
+
+    &-image {
+      padding-bottom: 5px;
+    }
+  }
+}

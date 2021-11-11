@@ -9,7 +9,6 @@
 .header-inner {
   display: flex;
   align-items: center;
-  height: 100%;
-  justify-items: space-between;
+  height: inherit;
   gap: 16px;
 }
