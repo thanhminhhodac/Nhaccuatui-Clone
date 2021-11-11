@@ -1,6 +1,14 @@
 .header-wrapper {
   height: 56px;
   text-align: center;
-  background-color: #87aaaa;
   grid-area: header;
+  padding: 0 90px;
+  border-bottom: #dadada solid 1px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-items: space-between;
 }
