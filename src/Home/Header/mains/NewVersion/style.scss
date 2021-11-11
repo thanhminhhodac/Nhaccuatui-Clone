@@ -1,0 +1,14 @@
+.new-version {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+
+  &-link {
+    flex: 1;
+    padding: 12px;
+    line-height: 24px;
+    color: #2f80ed;
+    font-size: 16px;
+  }
+}
