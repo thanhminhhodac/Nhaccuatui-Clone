@@ -6,12 +6,15 @@ import Logo from './Logo';
 import NewVersion from './NewVersion';
 import Menu from './Menu';
 import Authentication from './Authentication';
+import Functional from './Functional';
 
 // styles
 import './style.scss';
 
 // other
 import MoreImage from '../../assets/ic_more_new.png';
+import UploadeImage from '../../assets/ic_upload.png';
+import StoreImage from '../../assets/ic_store.png';
 
 const Header = () => (
   <div className="header-wrapper">
@@ -29,6 +32,8 @@ const Header = () => (
         <Menu title="Khác" imageUrl={MoreImage} />
       </div>
       <div className="header-right">
+        <Functional url={StoreImage} />
+        <Functional url={UploadeImage} />
         <div className="header-divider" />
         <Authentication />
       </div>
