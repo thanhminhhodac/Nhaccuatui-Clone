@@ -27,6 +27,7 @@
     "import/prefer-default-export": "off",
     "react/jsx-props-no-spreading": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "linebreak-style": ["error", "windows"]
+    "linebreak-style": ["error", "windows"],
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }]
   }
 }

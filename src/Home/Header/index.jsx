@@ -7,6 +7,7 @@ import NewVersion from './NewVersion';
 import Menu from './Menu';
 import Authentication from './Authentication';
 import Functional from './Functional';
+import Search from './Search';
 
 // styles
 import './style.scss';
@@ -32,6 +33,7 @@ const Header = () => (
         <Menu title="Khác" imageUrl={MoreImage} />
       </div>
       <div className="header-right">
+        <Search />
         <Functional url={StoreImage} />
         <Functional url={UploadeImage} />
         <div className="header-divider" />
