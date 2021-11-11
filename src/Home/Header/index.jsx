@@ -5,6 +5,7 @@ import React from 'react';
 import Logo from './Logo';
 import NewVersion from './NewVersion';
 import Menu from './Menu';
+import Authentication from './Authentication';
 
 // styles
 import './style.scss';
@@ -27,7 +28,10 @@ const Header = () => (
         <Menu title="Top 100" />
         <Menu title="Khác" imageUrl={MoreImage} />
       </div>
-      <div className="header-right">Left side</div>
+      <div className="header-right">
+        <div className="header-divider" />
+        <Authentication />
+      </div>
     </div>
   </div>
 );
