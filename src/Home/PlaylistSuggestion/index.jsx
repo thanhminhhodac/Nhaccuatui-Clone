@@ -14,15 +14,13 @@ const PlaylistSuggestion = ({ title, suggestList }) => (
     <Heading title={title} />
     <div className="playlist-suggestion-body">
       {
-        // eslint-disable-next-line operator-linebreak
-        suggestList &&
-          // eslint-disable-next-line arrow-parens
-          suggestList.map(suggest => (
-            <PlaylistCard
-              imageUrl={suggest.imageUrl}
-              suggestion={suggest.suggestion}
-            />
-          ))
+        // eslint-disable-next-line arrow-parens
+        suggestList.map(suggest => (
+          <PlaylistCard
+            imageUrl={suggest.imageUrl}
+            suggestion={suggest.suggestion}
+          />
+        ))
       }
     </div>
   </div>
