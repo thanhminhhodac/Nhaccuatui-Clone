@@ -1,23 +1,17 @@
 .header {
   &-wrapper {
-    height: 56px;
-    text-align: center;
     grid-area: header;
-    padding: 6px 90px 5px;
     border-bottom: #dadada solid 1px;
+    height: 56px;
+    padding: 6px 90px 5px;
+    text-align: center;
   }
 
   &-inner {
     display: flex;
-    height: inherit;
     justify-content: space-between;
-  }
-
-  &-left,
-  &-right {
-    display: flex;
     align-items: center;
-    gap: 16px;
+    height: inherit;
   }
 
   &-divider {

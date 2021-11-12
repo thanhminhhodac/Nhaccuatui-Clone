@@ -24,17 +24,13 @@ import {
 const Header = () => (
   <div className="header-wrapper">
     <div className="header-inner">
-      <div className="header-left">
-        <Logo logoItem={logoItem} />
-        <NewVersion newVersionItem={newVersionItem} />
-        <Menu menuList={menuList} />
-      </div>
-      <div className="header-right">
-        <Search />
-        <Functional functionalList={functionalList} />
-        <div className="header-divider" />
-        <Authentication authenticationList={authenticationList} />
-      </div>
+      <Logo logoItem={logoItem} />
+      <NewVersion newVersionItem={newVersionItem} />
+      <Menu menuList={menuList} />
+      <Search />
+      <Functional functionalList={functionalList} />
+      <div className="header-divider" />
+      <Authentication authenticationList={authenticationList} />
     </div>
   </div>
 );
