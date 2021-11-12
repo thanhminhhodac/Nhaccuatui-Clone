@@ -3,10 +3,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // style
+import './style.scss';
 
 const Heading = ({ title }) => (
   <div className="playlist-suggestion-heading">
-    <p>{title}</p>
+    <span className="playlist-suggestion-heading-title">{title}</span>
   </div>
 );
 
