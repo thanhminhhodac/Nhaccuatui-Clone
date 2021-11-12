@@ -29,6 +29,6 @@
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "linebreak-style": ["error", "windows"],
     "react/jsx-one-expression-per-line": [2, { "allow": "single-child" }],
-    "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }]
+    "arrow-parens": "off"
   }
 }
