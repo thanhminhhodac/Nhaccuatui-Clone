@@ -1,27 +1,22 @@
 // libs
 import React from 'react';
 import PropTypes from 'prop-types';
-
 // style
 import './style.scss';
 
-// other
-import LogoImage from '../../../assets/logo.png';
-
-const Logo = ({ url }) => (
+const Logo = ({ logoItem }) => (
   <div className="logo">
-    <a className="logo-inner" href={url}>
-      <img src={LogoImage} className="logo-image" alt="Logo NCT" />
+    <a className="logo-inner" href={logoItem.logoUrl}>
+      <img src={logoItem.logoImage} className="logo-image" alt="Logo NCT" />
     </a>
   </div>
 );
 
 Logo.propTypes = {
-  url: PropTypes.string,
-};
-
-Logo.defaultProps = {
-  url: 'https://storybook.js.org/docs',
+  logoItem: PropTypes.shape({
+    logoImage: PropTypes.string.isRequired,
+    logoUrl: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Logo;
