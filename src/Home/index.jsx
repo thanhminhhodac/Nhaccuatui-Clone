@@ -19,13 +19,42 @@ import SongRanking from './SongRanking';
 // styles
 import './style.scss';
 
+// other
+import sPL1 from './assets/playlistsuggestion/1.jpg';
+
+const suggestList = [
+  {
+    imageUrl: sPL1,
+    suggestion: 'Gái chiếc',
+  },
+  {
+    imageUrl: sPL1,
+    suggestion: 'Gái chiếc',
+  },
+  {
+    imageUrl: sPL1,
+    suggestion: 'Gái chiếc',
+  },
+  {
+    imageUrl: sPL1,
+    suggestion: 'Gái chiếc',
+  },
+  {
+    imageUrl: sPL1,
+    suggestion: 'Gái chiếc',
+  },
+];
+
 const Home = () => (
   <div className="home-wrapper">
     <Header />
     <div className="main-wrapper">
       <div className="main-wrapper-inner">
         <Slider />
-        <PlaylistSuggestion />
+        <PlaylistSuggestion
+          title="Nếu bạn độc thân"
+          suggestList={suggestList}
+        />
         <PlaylistSuggestion />
         <PlaylistSuggestion />
         <NewPublished />

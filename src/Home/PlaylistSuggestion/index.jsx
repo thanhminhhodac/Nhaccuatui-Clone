@@ -1,5 +1,6 @@
 // lib
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // components
 import Heading from './Heading';
@@ -8,20 +9,28 @@ import PlaylistCard from './PlaylistCard';
 // style
 import './style.scss';
 
-// other
-import imageUrl from '../assets/playlistsuggestion_1.jpg';
-
-const PlaylistSuggestion = () => (
+const PlaylistSuggestion = ({ title, suggestList }) => (
   <div className="playlist-suggestion-wrapper">
-    <Heading title="NẾU BẠN ĐỘC THÂN" />
+    <Heading title={title} />
     <div className="playlist-suggestion-body">
-      <PlaylistCard imageUrl={imageUrl} suggestion="Album 1111111111111111" />
-      <PlaylistCard imageUrl={imageUrl} suggestion="Album 1111111111111111" />
-      <PlaylistCard imageUrl={imageUrl} suggestion="Album 1111111111111111" />
-      <PlaylistCard imageUrl={imageUrl} suggestion="Album 1111111111111111" />
-      <PlaylistCard imageUrl={imageUrl} suggestion="Album 1111111111111111" />
+      {suggestList.map(suggest => (
+        <PlaylistCard
+          imageUrl={suggest.imageUrl}
+          suggestion={suggest.suggestion}
+        />
+      ))}
     </div>
   </div>
 );
+
+PlaylistSuggestion.propTypes = {
+  title: PropTypes.string.isRequired,
+  suggestList: PropTypes.arrayOf(
+    PropTypes.shape({
+      imageUrl: PropTypes.string.isRequired,
+      suggestion: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
+};
 
 export default PlaylistSuggestion;
