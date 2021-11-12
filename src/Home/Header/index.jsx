@@ -13,7 +13,7 @@ import Search from './Search';
 import './style.scss';
 
 // other
-import { menuList } from '../../Datasource/Home/Header/Menu';
+import { menuList, authenticationList } from '../../Datasource/Home/Header';
 import UploadeImage from '../../assets/ic_upload.png';
 import StoreImage from '../../assets/ic_store.png';
 
@@ -30,7 +30,7 @@ const Header = () => (
         <Functional url={StoreImage} />
         <Functional url={UploadeImage} />
         <div className="header-divider" />
-        <Authentication />
+        <Authentication authenticationList={authenticationList} />
       </div>
     </div>
   </div>
