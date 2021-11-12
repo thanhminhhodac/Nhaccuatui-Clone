@@ -3,9 +3,9 @@ import storeImage from '../../../../assets/ic_store.png';
 
 export const functionalList = [
   {
-    functionImage: uploadeImage,
+    functionalImage: storeImage,
   },
   {
-    functionImage: storeImage,
+    functionalImage: uploadeImage,
   },
 ];
