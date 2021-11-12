@@ -1,4 +1,11 @@
-.playlist-suggestion-wrapper {
-  height: 260px;
-  background-color: #c76ec4;
+.playlist-suggestion {
+  &-wrapper {
+    height: 260px;
+  }
+
+  &-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

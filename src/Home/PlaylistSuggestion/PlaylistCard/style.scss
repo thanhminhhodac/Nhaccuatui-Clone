@@ -1,0 +1,63 @@
+.playlist-suggestion-card {
+  width: 152px;
+}
+
+.card {
+  &-body {
+    width: 152px;
+    height: 152px;
+    position: relative;
+    margin-bottom: 8px;
+
+    &-image {
+      background: #000;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 152px;
+      height: 152px;
+      box-sizing: border-box;
+
+      & img {
+        max-width: 100%;
+      }
+    }
+
+    &-icon {
+      display: none;
+      position: absolute;
+      top: 54px;
+      right: 54px;
+      bottom: 0;
+      color: rgb(241 235 235);
+      z-index: 3;
+      transition: opacity 1s ease-in;
+
+      &-play {
+        font-size: 48px;
+      }
+    }
+  }
+
+  &:hover {
+    & img {
+      opacity: 50%;
+    }
+
+    & .card-body-icon {
+      display: block;
+    }
+  }
+
+  &-content {
+    & span {
+      font-size: 14px;
+      padding: 0;
+    }
+
+    &:hover span {
+      color: #2daaed;
+    }
+  }
+}

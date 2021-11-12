@@ -6,19 +6,20 @@ import PropTypes from 'prop-types';
 import { PlayCircleFilled } from '@ant-design/icons';
 
 // style
+import './style.scss';
 
 const PlaylistCard = ({ imageUrl, suggestion }) => (
   <div className="playlist-suggestion-card">
     <div className="card-body">
-      <div className="card-image">
+      <div className="card-body-image">
         <img src={imageUrl} alt="suggest playlist img" />
       </div>
-      <div className="card-icon">
-        <PlayCircleFilled className="card-icon-play" />
+      <div className="card-body-icon">
+        <PlayCircleFilled className="card-body-icon-play" />
       </div>
     </div>
     <div className="card-content">
-      <p>{suggestion}</p>
+      <span>{suggestion}</span>
     </div>
   </div>
 );
