@@ -1,4 +1,4 @@
-export const AuthenticationItemList = [
+export const authenticationList = [
   {
     label: 'Đăng nhập',
     className: 'btn-signin',
