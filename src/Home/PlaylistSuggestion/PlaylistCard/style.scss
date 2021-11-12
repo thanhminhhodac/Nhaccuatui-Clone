@@ -30,7 +30,7 @@
       top: 54px;
       right: 54px;
       bottom: 0;
-      color: rgb(241 235 235);
+      color: rgb(241, 235, 235);
       z-index: 3;
       transition: opacity 1s ease-in;
 
@@ -38,15 +38,15 @@
         font-size: 48px;
       }
     }
-  }
 
-  &:hover {
-    & img {
-      opacity: 50%;
-    }
+    &:hover {
+      & img {
+        opacity: 50%;
+      }
 
-    & .card-body-icon {
-      display: block;
+      & .card-body-icon {
+        display: block;
+      }
     }
   }
 
