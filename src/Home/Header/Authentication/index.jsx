@@ -1,15 +1,21 @@
 // libs
 import React from 'react';
-// import PropTypes from 'prop-types';
-
+// components
+import AuthenticationItem from './mains/AuthenticationItem';
 // style
 import './style.scss';
+// other
+import { AuthenticationItemList } from '../../../Datasource/Home/Header/Authentication';
 
 const Authentication = () => (
   <div className="authentication-wrapper">
     <div className="authentication-wrapper-inner">
-      <div className="authentication-item btn-signin">Đăng nhập</div>
-      <div className="authentication-item btn-signup">Đăng ký</div>
+      {AuthenticationItemList.map((authentication) => (
+        <AuthenticationItem
+          className={authentication.className}
+          label={authentication.label}
+        />
+      ))}
     </div>
   </div>
 );
