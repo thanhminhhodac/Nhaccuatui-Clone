@@ -1,16 +1,9 @@
-.menu {
-  &-item {
-    font-size: 14px;
-    color: #222;
-    font-weight: 600;
-    cursor: pointer;
+.menu-wrapper {
+  width: 450px;
 
-    &:hover {
-      color: #2daaed;
-    }
-
-    &-image {
-      padding-bottom: 5px;
-    }
+  &-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
