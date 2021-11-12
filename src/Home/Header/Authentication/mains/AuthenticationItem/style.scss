@@ -1,0 +1,26 @@
+.authentication {
+  &-item {
+    cursor: pointer;
+
+    &.btn {
+      &-signup {
+        width: 80px;
+        height: 32px;
+        font-size: 13.5px;
+        color: #fff;
+        display: flex;
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-image: linear-gradient(45deg, #2f80ed 0%, #00aeef 100%);
+      }
+
+      &-signin {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 13.5px;
+        font-weight: 400;
+      }
+    }
+  }
+}
