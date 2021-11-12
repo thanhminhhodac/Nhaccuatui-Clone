@@ -1,4 +1,4 @@
-import moreImage from '../../../../assets/ic_more_new.png';
+import moreImage from '../../../../assets/Header/ic_more_new.png';
 
 export const menuList = [
   {

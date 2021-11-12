@@ -1,4 +1,4 @@
-import logoImageSrc from '../../../../assets/logo.png';
+import logoImageSrc from '../../../../assets/Header/logo.png';
 
 export const logoItem = {
   logoImage: logoImageSrc,

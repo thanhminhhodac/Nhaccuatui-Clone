@@ -1,5 +1,5 @@
-import uploadeImage from '../../../../assets/ic_upload.png';
-import storeImage from '../../../../assets/ic_store.png';
+import uploadeImage from '../../../../assets/Header/ic_upload.png';
+import storeImage from '../../../../assets/Header/ic_store.png';
 
 export const functionalList = [
   {

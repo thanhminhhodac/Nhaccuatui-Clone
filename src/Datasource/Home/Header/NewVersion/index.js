@@ -1,4 +1,4 @@
-import newVersionSrc from '../../../../assets/ic_new.png';
+import newVersionSrc from '../../../../assets/Header/ic_new.png';
 
 export const newVersionItem = {
   newVersionImage: newVersionSrc,
