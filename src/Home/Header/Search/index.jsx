@@ -14,7 +14,7 @@ const Search = () => {
   const handleOnChange = (e) => setSearchKey(e.target.value);
 
   return (
-    <div className="search">
+    <div className="search-wrapper">
       <div className="search-form">
         <SearchOutlined className="search-icon" />
         <input

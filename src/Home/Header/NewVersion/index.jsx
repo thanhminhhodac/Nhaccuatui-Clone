@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import './style.scss';
 // other
 const NewVersion = ({ newVersionItem }) => (
-  <div className="new-version">
-    <a href={newVersionItem.newVersionUrl} className="new-version-inner">
+  <div className="new-version-wrapper">
+    <a href={newVersionItem.newVersionUrl} className="new-version-link">
       <img
         src={newVersionItem.newVersionImage}
         alt="New Version of NCT"

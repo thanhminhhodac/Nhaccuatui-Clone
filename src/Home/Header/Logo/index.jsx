@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 const Logo = ({ logoItem }) => (
-  <div className="logo">
-    <a className="logo-inner" href={logoItem.logoUrl}>
+  <div className="logo-wrapper">
+    <a className="logo-wrapper-inner" href={logoItem.logoUrl}>
       <img src={logoItem.logoImage} className="logo-image" alt="Logo NCT" />
     </a>
   </div>
