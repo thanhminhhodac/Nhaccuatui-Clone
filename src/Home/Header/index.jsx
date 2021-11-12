@@ -13,22 +13,25 @@ import Search from './Search';
 import './style.scss';
 
 // other
-import { menuList, authenticationList } from '../../Datasource/Home/Header';
-import UploadeImage from '../../assets/ic_upload.png';
-import StoreImage from '../../assets/ic_store.png';
+import {
+  menuList,
+  authenticationList,
+  logoItem,
+  newVersionItem,
+  functionalList,
+} from '../../Datasource/Home/Header';
 
 const Header = () => (
   <div className="header-wrapper">
     <div className="header-inner">
       <div className="header-left">
-        <Logo url="https://www.nhaccuatui.com/" />
-        <NewVersion url="https://beta.nhaccuatui.com/" />
+        <Logo logoItem={logoItem} />
+        <NewVersion newVersionItem={newVersionItem} />
         <Menu menuList={menuList} />
       </div>
       <div className="header-right">
         <Search />
-        <Functional url={StoreImage} />
-        <Functional url={UploadeImage} />
+        <Functional functionalList={functionalList} />
         <div className="header-divider" />
         <Authentication authenticationList={authenticationList} />
       </div>
