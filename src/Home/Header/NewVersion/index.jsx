@@ -1,18 +1,14 @@
 // lib
 import React from 'react';
 import PropTypes from 'prop-types';
-
 // style
 import './style.scss';
-
 // other
-import NewVersionImage from '../../../assets/ic_new.png';
-
-const NewVersion = ({ url }) => (
+const NewVersion = ({ newVersionItem }) => (
   <div className="new-version">
-    <a href={url} className="new-version-inner">
+    <a href={newVersionItem.newVersionUrl} className="new-version-inner">
       <img
-        src={NewVersionImage}
+        src={newVersionItem.newVersionImage}
         alt="New Version of NCT"
         className="new-version-image"
       />
@@ -21,11 +17,10 @@ const NewVersion = ({ url }) => (
 );
 
 NewVersion.propTypes = {
-  url: PropTypes.string,
-};
-
-NewVersion.defaultProps = {
-  url: 'https://beta.nhaccuatui.com/',
+  newVersionItem: PropTypes.shape({
+    newVersionImage: PropTypes.string.isRequired,
+    newVersionUrl: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default NewVersion;
