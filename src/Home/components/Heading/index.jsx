@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 const Heading = ({ title }) => (
-  <div className="playlist-suggestion-heading">
-    <span className="playlist-suggestion-heading-title">{title}</span>
+  <div className="heading">
+    <span className="heading-title">{title}</span>
   </div>
 );
 
