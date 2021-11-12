@@ -1,9 +1,11 @@
 .authentication {
-  &-inner {
-    display: flex;
-    width: 160px;
-    align-items: center;
-    justify-content: space-between;
+  &-wrapper {
+    &-inner {
+      display: flex;
+      width: 160px;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
 
   &-item {
