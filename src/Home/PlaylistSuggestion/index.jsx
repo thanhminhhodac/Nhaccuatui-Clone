@@ -10,7 +10,7 @@ import './style.scss';
 
 const PlaylistSuggestion = () => (
   <div className="playlist-suggestion-wrapper">
-    <Heading />
+    <Heading title="NẾU BẠN ĐỘC THÂN" />
     <PlaylistCard />
   </div>
 );
