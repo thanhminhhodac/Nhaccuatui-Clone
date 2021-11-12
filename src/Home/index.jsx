@@ -21,6 +21,10 @@ import './style.scss';
 
 // other
 import sPL1 from './assets/playlistsuggestion/1.jpg';
+import sPL2 from './assets/playlistsuggestion/2.jpg';
+import sPL3 from './assets/playlistsuggestion/3.jpg';
+import sPL4 from './assets/playlistsuggestion/4.jpg';
+import sPL5 from './assets/playlistsuggestion/5.jpg';
 
 const Home = () => {
   const suggestList = [
@@ -29,20 +33,20 @@ const Home = () => {
       suggestion: 'Gái chiếc',
     },
     {
-      imageUrl: sPL1,
-      suggestion: 'Gái chiếc',
+      imageUrl: sPL2,
+      suggestion: 'Trai đơn',
     },
     {
-      imageUrl: sPL1,
-      suggestion: 'Gái chiếc',
+      imageUrl: sPL3,
+      suggestion: "I'm single",
     },
     {
-      imageUrl: sPL1,
-      suggestion: 'Gái chiếc',
+      imageUrl: sPL4,
+      suggestion: 'V-Rap cho người độc thân',
     },
     {
-      imageUrl: sPL1,
-      suggestion: 'Gái chiếc',
+      imageUrl: sPL5,
+      suggestion: 'Độc thân vui vẻ',
     },
   ];
   return (
@@ -55,8 +59,15 @@ const Home = () => {
             title="Nếu bạn độc thân"
             suggestList={suggestList}
           />
-          <PlaylistSuggestion />
-          <PlaylistSuggestion />
+          <PlaylistSuggestion
+            title="Nếu bạn độc thân"
+            suggestList={suggestList}
+          />
+          <PlaylistSuggestion
+            title="Nếu bạn độc thân"
+            suggestList={suggestList}
+          />
+
           <NewPublished />
           <HotMV />
           <Song />
