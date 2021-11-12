@@ -11,10 +11,7 @@ import { SearchOutlined } from '@ant-design/icons';
 const Search = () => {
   const [searchKey, setSearchKey] = useState('');
 
-  // eslint-disable-next-line arrow-parens
-  const handleOnChange = e => {
-    setSearchKey(e.target.value);
-  };
+  const handleOnChange = (e) => setSearchKey(e.target.value);
 
   return (
     <div className="search">
