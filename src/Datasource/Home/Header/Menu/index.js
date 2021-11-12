@@ -1,4 +1,4 @@
-import MoreImage from '../../../../assets/ic_more_new.png';
+import moreImage from '../../../../assets/ic_more_new.png';
 
 export const menuList = [
   {
@@ -24,6 +24,6 @@ export const menuList = [
   },
   {
     title: 'Khác',
-    imageUrl: MoreImage,
+    imageUrl: moreImage,
   },
 ];
