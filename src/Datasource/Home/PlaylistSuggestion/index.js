@@ -8,6 +8,11 @@ import sPL7 from '../../../assets/playlistsuggestion/7.jpg';
 import sPL8 from '../../../assets/playlistsuggestion/8.jpg';
 import sPL9 from '../../../assets/playlistsuggestion/9.jpg';
 import sPL10 from '../../../assets/playlistsuggestion/10.jpg';
+import sPL11 from '../../../assets/playlistsuggestion/11.jpg';
+import sPL12 from '../../../assets/playlistsuggestion/12.jpg';
+import sPL13 from '../../../assets/playlistsuggestion/13.jpg';
+import sPL14 from '../../../assets/playlistsuggestion/14.jpg';
+import sPL15 from '../../../assets/playlistsuggestion/15.jpg';
 
 export const suggestList = [
   {
@@ -61,27 +66,27 @@ export const suggestList = [
     ],
   },
   {
-    title: 'Không gian acountic',
+    title: 'Hết giãn cách mình sẽ',
     list: [
       {
-        imageUrl: sPL6,
-        suggestion: 'Giai điệu Bắt Tai US - UK',
+        imageUrl: sPL11,
+        suggestion: 'Ngày mình bên nhau',
       },
       {
-        imageUrl: sPL7,
-        suggestion: 'V-POP Những bản hit Quốc Dân',
+        imageUrl: sPL12,
+        suggestion: 'Vitamin Sea',
       },
       {
-        imageUrl: sPL8,
-        suggestion: 'Nhạc mới tuần này',
+        imageUrl: sPL13,
+        suggestion: 'Bên em là anh',
       },
       {
-        imageUrl: sPL9,
-        suggestion: 'Ballad Việt không thể bỏ qua',
+        imageUrl: sPL14,
+        suggestion: 'Mình đi cùng nhau',
       },
       {
-        imageUrl: sPL10,
-        suggestion: 'Future K-POP 2021',
+        imageUrl: sPL15,
+        suggestion: 'Bạn thân ơi, mình đi thôi',
       },
     ],
   },
