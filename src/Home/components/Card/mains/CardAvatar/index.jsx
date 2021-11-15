@@ -3,14 +3,22 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // components
 import CardImage from '../../components/CardImage';
+// style
+import './style.scss';
 
-const CardAvatar = ({ cardImage, description }) => (
-  <div className="card-avatar-wrapper">
-    <CardImage cardImage={cardImage} description={description} />
+const CardAvatar = ({ cardAvatar, cardType }) => (
+  <div className={['card-avatar-wrapper', `card-${cardType}`].join(' ')}>
+    <CardImage
+      cardImage={cardAvatar.avatarImage}
+      cardDescription={cardAvatar.avatarDescription}
+    />
   </div>
 );
 CardAvatar.propTypes = {
-  cardImage: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  cardAvatar: PropTypes.shape({
+    avatarImage: PropTypes.string.isRequired,
+    avatarDescription: PropTypes.string.isRequired,
+  }).isRequired,
+  cardType: PropTypes.string.isRequired,
 };
 export default CardAvatar;
