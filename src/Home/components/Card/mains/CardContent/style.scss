@@ -1,0 +1,18 @@
+.card-content {
+  &-wrapper {
+    &.card-artist {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &-title {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+
+    &:hover {
+      color: #2daaed;
+    }
+  }
+}
