@@ -70,7 +70,7 @@ export const suggestList = [
     list: [
       {
         imageUrl: sPL11,
-        suggestion: 'Ngày mình bên nhau',
+        suggestion: 'Chơi cho hết đời tuổi trẻ',
       },
       {
         imageUrl: sPL12,
