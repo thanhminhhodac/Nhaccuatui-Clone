@@ -6,23 +6,33 @@ import tHImage5 from '../../../assets/TopHundred/5.jpg';
 
 export const topHundredList = [
   {
-    topicImage: tHImage1,
-    description: 'Nhạc trẻ',
+    avatar: {
+      avatarImage: tHImage1,
+      avtataDescription: 'Nhạc trẻ',
+    },
   },
   {
-    topicImage: tHImage2,
-    description: 'Pop USUK',
+    avatar: {
+      avatarImage: tHImage2,
+      avatarDescription: 'Pop USUK',
+    },
   },
   {
-    topicImage: tHImage3,
-    description: 'Rap Việt',
+    avatar: {
+      avatarImage: tHImage3,
+      avatarDescription: 'Rap Việt',
+    },
   },
   {
-    topicImage: tHImage4,
-    description: 'Blue Jazz',
+    avatar: {
+      avatarDescription: 'Blue Jazz',
+      avatarImage: tHImage4,
+    },
   },
   {
-    topicImage: tHImage5,
-    description: 'Country',
+    avatar: {
+      avatarImage: tHImage5,
+      avatarDescription: 'Country',
+    },
   },
 ];
