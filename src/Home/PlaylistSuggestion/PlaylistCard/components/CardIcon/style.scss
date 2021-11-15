@@ -2,14 +2,14 @@
   &-icon {
     &-play {
       position: absolute;
-      color: rgb(241, 235, 235);
       z-index: 3;
       right: 54px;
       top: 54px;
       bottom: 0;
       display: none;
-      font-size: 48px;
       transition: opacity 1s ease-in;
+      font-size: 48px;
+      color: rgb(241, 235, 235);
     }
   }
 }
