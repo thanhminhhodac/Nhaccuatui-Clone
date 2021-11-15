@@ -8,19 +8,14 @@ import './style.scss';
 
 const TopHundredBody = ({ topHundredList }) => (
   <div className="top-hundred-body">
-    {topHundredList.map((card) => (
-      <Card cardImage={card.topicImage} description={card.description} />
+    {topHundredList.map((cardItem) => (
+      <Card cardItem={cardItem} cardType="top-hundred" />
     ))}
   </div>
 );
 
 TopHundredBody.propTypes = {
-  topHundredList: PropTypes.arrayOf(
-    PropTypes.shape({
-      topicImage: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-    }).isRequired,
-  ).isRequired,
+  topHundredList: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
 };
 
 export default TopHundredBody;
