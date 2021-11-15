@@ -1,5 +1,6 @@
 .heading {
   margin-bottom: 10px;
+  cursor: pointer;
   color: #2daaed;
 
   &-title {
@@ -8,7 +9,7 @@
   }
 
   & .right-outlined {
-    font-size: 18px;
     margin-left: 4px;
+    font-size: 18px;
   }
 }
