@@ -1,0 +1,18 @@
+.card {
+  &-body {
+    width: 152px;
+    height: 152px;
+    position: relative;
+    margin-bottom: 8px;
+
+    &:hover {
+      & img {
+        opacity: 50%;
+      }
+
+      & .card-icon-play {
+        display: block;
+      }
+    }
+  }
+}
