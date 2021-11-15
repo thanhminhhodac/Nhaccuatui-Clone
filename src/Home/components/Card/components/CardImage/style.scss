@@ -1,0 +1,10 @@
+.card-image-wrapper {
+  &-inner {
+    width: 100%;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 50%;
+    }
+  }
+}
