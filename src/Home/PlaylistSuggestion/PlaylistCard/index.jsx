@@ -1,26 +1,17 @@
 // libs
 import React from 'react';
 import PropTypes from 'prop-types';
-
 // components
-import { PlayCircleFilled } from '@ant-design/icons';
+import CardBody from './mains/CardBody';
+import CardContent from './mains/CardContent';
 
 // style
 import './style.scss';
 
 const PlaylistCard = ({ imageUrl, suggestion }) => (
   <div className="playlist-suggestion-card">
-    <div className="card-body">
-      <div className="card-body-image">
-        <img src={imageUrl} alt="suggest playlist img" />
-      </div>
-      <div className="card-body-icon">
-        <PlayCircleFilled className="card-body-icon-play" />
-      </div>
-    </div>
-    <div className="card-content">
-      <span>{suggestion}</span>
-    </div>
+    <CardBody imageUrl={imageUrl} suggestion={suggestion} />
+    <CardContent content={suggestion} />
   </div>
 );
 
