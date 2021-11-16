@@ -19,15 +19,24 @@ import SongRanking from './SongRanking';
 // styles
 import './style.scss';
 
+// other
+import { suggestList } from '../Datasource/Home/PlaylistSuggestion';
+
 const Home = () => (
   <div className="home-wrapper">
     <Header />
     <div className="main-wrapper">
       <div className="main-wrapper-inner">
         <Slider />
-        <PlaylistSuggestion />
-        <PlaylistSuggestion />
-        <PlaylistSuggestion />
+        {
+          // eslint-disable-next-line arrow-parens
+          suggestList.map((suggest) => (
+            <PlaylistSuggestion
+              title={suggest.title}
+              suggestList={suggest.list}
+            />
+          ))
+        }
         <NewPublished />
         <HotMV />
         <Song />
