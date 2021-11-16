@@ -1,4 +1,10 @@
 .card-content {
+  &-wrapper {
+    &.card-artist {
+      display: flex;
+      justify-content: center;
+    }
+  }
   &-title {
     cursor: pointer;
     font-size: 16px;

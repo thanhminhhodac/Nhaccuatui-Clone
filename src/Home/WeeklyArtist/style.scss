@@ -1,5 +1,5 @@
-.weekly-artist-wrapper {
-  height: 286px;
-  background-color: #d2f44b;
-  grid-area: weekly-artist;
+.weekly-artist {
+  &-wrapper {
+    grid-area: weekly-artist;
+  }
 }
