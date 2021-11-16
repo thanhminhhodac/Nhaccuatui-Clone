@@ -1,0 +1,15 @@
+.heading {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #2daaed;
+
+  &-title {
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+
+  & .right-outlined {
+    margin-left: 4px;
+    font-size: 18px;
+  }
+}
