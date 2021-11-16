@@ -1,0 +1,13 @@
+.card {
+  &-content {
+    & span {
+      padding: 0;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
+
+    &:hover span {
+      color: #2daaed;
+    }
+  }
+}
