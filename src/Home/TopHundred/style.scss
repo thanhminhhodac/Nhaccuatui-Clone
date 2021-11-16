@@ -1,5 +1,5 @@
-.top-hundred-wrapper {
-  height: 216px;
-  background-color: #ec722f;
-  grid-area: top-hundred;
+.top-hundred {
+  &-wrapper {
+    grid-area: top-hundred;
+  }
 }

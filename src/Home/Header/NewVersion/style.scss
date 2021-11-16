@@ -1,0 +1,11 @@
+.new-version {
+  display: flex;
+
+  &-link {
+    height: inherit;
+  }
+
+  &-image {
+    padding-top: 4px;
+  }
+}

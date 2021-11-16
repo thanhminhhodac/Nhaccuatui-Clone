@@ -1,6 +1,22 @@
-.header-wrapper {
-  height: 56px;
-  text-align: center;
-  background-color: #87aaaa;
-  grid-area: header;
+.header {
+  &-wrapper {
+    grid-area: header;
+    border-bottom: #dadada solid 1px;
+    height: 56px;
+    padding: 6px 90px 5px;
+    text-align: center;
+  }
+
+  &-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+  }
+
+  &-divider {
+    width: 1px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
 }
