@@ -6,7 +6,7 @@ import './style.scss';
 import Content from './mains/Content';
 import Button from './mains/Button';
 // other
-import { bannerData } from '../../Datasource/Home/Banner';
+import { bannerData } from '../../dataSources/Home/Banner';
 
 const Banner = () => (
   <div className="banner-wrapper">
