@@ -34,6 +34,7 @@ const Home = () => (
             <PlaylistSuggestion
               title={suggest.title}
               suggestList={suggest.list}
+              key={suggest.sPLid}
             />
           ))
         }

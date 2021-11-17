@@ -16,77 +16,170 @@ import sPL15 from '../../../assets/playlistsuggestion/15.jpg';
 
 export const suggestList = [
   {
+    sPLid: 'sPL1',
     title: 'Nếu bạn độc thân',
     list: [
       {
-        imageUrl: sPL1,
-        suggestion: 'Gái chiếc',
+        id: 'sPI1',
+        avatar: {
+          avatarImage: sPL1,
+          avatarDescription: 'Gái chiếc',
+        },
+        content: {
+          title: 'Gái chiếc',
+        },
       },
       {
-        imageUrl: sPL2,
-        suggestion: 'Trai đơn',
+        id: 'sPI2',
+        avatar: {
+          avatarImage: sPL2,
+          avatarDescription: 'Trai đơn',
+        },
+        content: {
+          title: 'Trai đơn',
+        },
       },
       {
-        imageUrl: sPL3,
-        suggestion: "I'm single",
+        id: 'sPI3',
+        avatar: {
+          avatarImage: sPL3,
+          avatarDescription: "I'm sPingle",
+        },
+        content: {
+          title: "I'm sPingle",
+        },
       },
       {
-        imageUrl: sPL4,
-        suggestion: 'V-Rap cho người độc thân',
+        id: 'sPI4',
+        avatar: {
+          avatarImage: sPL4,
+          avatarDescription: 'V-Rap cho người độc thân',
+        },
+        content: {
+          title: 'V-Rap cho người độc thân',
+        },
       },
       {
-        imageUrl: sPL5,
-        suggestion: 'Độc thân vui vẻ',
+        id: 'sPI5',
+        avatar: {
+          avatarImage: sPL5,
+          avatarDescription: 'Độc thân vui vẻ',
+        },
+        content: {
+          title: 'Độc thân vui vẻ',
+        },
       },
     ],
   },
   {
+    sPLid: 'sPL2',
     title: 'Khám phá mới',
     list: [
       {
-        imageUrl: sPL6,
-        suggestion: 'Giai điệu Bắt Tai US - UK',
+        id: 'sPI6',
+        avatar: {
+          avatarImage: sPL6,
+          avatarDescription: 'Giai điệu Bắt Tai US - UK',
+        },
+        content: {
+          title: 'Giai điệu Bắt Tai US - UK',
+        },
       },
       {
-        imageUrl: sPL7,
-        suggestion: 'V-POP Những bản hit Quốc Dân',
+        id: 'sPI7',
+        avatar: {
+          avatarImage: sPL7,
+          avatarDescription: 'V-POP Những bản hit Quốc Dân',
+        },
+        content: {
+          title: 'V-POP Những bản hit Quốc Dân',
+        },
       },
       {
-        imageUrl: sPL8,
-        suggestion: 'Nhạc mới tuần này',
+        id: 'sPI8',
+        avatar: {
+          avatarImage: sPL8,
+          avatarDescription: 'Nhạc mới tuần này',
+        },
+        content: {
+          title: 'Nhạc mới tuần này',
+        },
       },
       {
-        imageUrl: sPL9,
-        suggestion: 'Ballad Việt không thể bỏ qua',
+        id: 'sPI9',
+        avatar: {
+          avatarImage: sPL9,
+          avatarDescription: 'Ballad Việt không thể bỏ qua',
+        },
+        content: {
+          title: 'Ballad Việt không thể bỏ qua',
+        },
       },
       {
-        imageUrl: sPL10,
-        suggestion: 'Future K-POP 2021',
+        id: 'sPI10',
+        avatar: {
+          avatarImage: sPL10,
+          avatarDescription: 'Future K-POP 2021',
+        },
+        content: {
+          title: 'Future K-POP 2021',
+        },
       },
     ],
   },
   {
+    sPLid: 'sPL3',
     title: 'Hết giãn cách mình sẽ',
     list: [
       {
-        imageUrl: sPL11,
-        suggestion: 'Chơi cho hết đời tuổi trẻ',
+        id: 'sPI11',
+        avatar: {
+          avatarImage: sPL11,
+          avatarDescription: 'Chơi cho hết đời tuổi trẻ',
+        },
+        content: {
+          title: 'Chơi cho hết đời tuổi trẻ',
+        },
       },
       {
-        imageUrl: sPL12,
-        suggestion: 'Vitamin Sea',
+        id: 'sPI12',
+        avatar: {
+          avatarImage: sPL12,
+          avatarDescription: 'Vitamin Sea',
+        },
+        content: {
+          title: 'Vitamin Sea',
+        },
       },
       {
-        imageUrl: sPL13,
-        suggestion: 'Bên em là anh',
+        id: 'sPI13',
+        avatar: {
+          avatarImage: sPL13,
+          avatarDescription: 'Bên em là anh',
+        },
+        content: {
+          title: 'Bên em là anh',
+        },
       },
       {
-        imageUrl: sPL14,
-        suggestion: 'Mình đi cùng nhau',
+        id: 'sPI14',
+        avatar: {
+          avatarImage: sPL14,
+          avatarDescription: 'Mình đi cùng nhau',
+        },
+        content: {
+          title: 'Mình đi cùng nhau',
+        },
       },
       {
-        imageUrl: sPL15,
-        suggestion: 'Bạn thân ơi, mình đi thôi',
+        id: 'sPI15',
+        avatar: {
+          avatarImage: sPL15,
+          avatarDescription: 'Bạn thân ơi, mình đi thôi',
+        },
+        content: {
+          title: 'Bạn thân ơi, mình đi thôi',
+        },
       },
     ],
   },
