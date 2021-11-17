@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // components
+import { PlayCircleFilled } from '@ant-design/icons';
 import CardImage from '../../components/CardImage';
 // style
 import './style.scss';
@@ -13,8 +14,10 @@ const CardAvatar = ({ cardAvatar, cardType, ...props }) => (
     <CardImage
       cardImage={cardAvatar.avatarImage}
       cardDescription={cardAvatar.avatarDescription}
-      cardPlay={typeCardPlay.includes(cardType)}
     />
+    {typeCardPlay.includes(cardType) && (
+      <PlayCircleFilled className="card-icon-play" />
+    )}
     {props.children}
   </div>
 );
