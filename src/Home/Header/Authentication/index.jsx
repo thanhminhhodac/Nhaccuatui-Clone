@@ -14,6 +14,7 @@ const Authentication = ({ authenticationList }) => (
         <AuthenticationItem
           className={authentication.className}
           label={authentication.label}
+          key={authentication.id}
         />
       ))}
     </div>
@@ -25,6 +26,7 @@ Authentication.propTypes = {
     PropTypes.shape({
       className: PropTypes.string,
       label: PropTypes.string,
+      id: PropTypes.string,
     }),
   ).isRequired,
 };
