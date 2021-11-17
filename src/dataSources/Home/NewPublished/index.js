@@ -18,7 +18,12 @@ export const newPublishedList = [
     },
     content: {
       title: 'Chiếc Hộp',
-      artist: ['Bích Phương'],
+      artist: [
+        {
+          aPId: 'aP1',
+          artistName: 'Bích Phương',
+        },
+      ],
     },
     count: {
       countType: 'Listen',
@@ -33,7 +38,20 @@ export const newPublishedList = [
     },
     content: {
       title: 'MoonBow',
-      artist: ['TIA', 'Thái Vũ (BlackBi)', 'CM1X'],
+      artist: [
+        {
+          aPId: 'aP2',
+          artistName: 'TIA',
+        },
+        {
+          aPId: 'aP3',
+          artistName: 'Thái Vũ (BlackBi)',
+        },
+        {
+          aPId: 'aP4',
+          artistName: 'CM1X',
+        },
+      ],
     },
     count: {
       countType: 'Listen',
@@ -48,7 +66,16 @@ export const newPublishedList = [
     },
     content: {
       title: 'Thật Ngoan!',
-      artist: ['2T', 'JD'],
+      artist: [
+        {
+          aPId: 'aP5',
+          artistName: '2T',
+        },
+        {
+          aPId: 'aP6',
+          artistName: 'JD',
+        },
+      ],
     },
     count: {
       countType: 'Listen',
@@ -63,7 +90,12 @@ export const newPublishedList = [
     },
     content: {
       title: 'Chẳng Còn Rung Động',
-      artist: ['Tường Quân'],
+      artist: [
+        {
+          aPId: 'aP7',
+          artistName: 'Tường Quân',
+        },
+      ],
     },
     count: {
       countType: 'Listen',
@@ -78,7 +110,12 @@ export const newPublishedList = [
     },
     content: {
       title: 'Duyên Tại Ý Trời',
-      artist: ['Bằng Cường'],
+      artist: [
+        {
+          aPId: 'aP8',
+          artistName: 'Bằng Cường',
+        },
+      ],
     },
     count: {
       countType: 'Listen',
@@ -93,7 +130,12 @@ export const newPublishedList = [
     },
     content: {
       title: 'XOXO',
-      artist: ['JEON SOMI'],
+      artist: [
+        {
+          aPId: 'aP9',
+          artistName: 'JEON SOMI',
+        },
+      ],
     },
   },
   {
@@ -104,7 +146,12 @@ export const newPublishedList = [
     },
     content: {
       title: 'Music Of The Spheres',
-      artist: ['Coldplay'],
+      artist: [
+        {
+          aPId: 'aP10',
+          artistName: 'Coldplay',
+        },
+      ],
     },
   },
   {
@@ -115,7 +162,12 @@ export const newPublishedList = [
     },
     content: {
       title: 'Imagine Dragons EP',
-      artist: ['Imagine Dragons'],
+      artist: [
+        {
+          aPId: 'aP11',
+          artistName: 'Imagine Dragons',
+        },
+      ],
     },
   },
   {
@@ -126,7 +178,16 @@ export const newPublishedList = [
     },
     content: {
       title: 'Love For Sale (Deluxe)',
-      artist: ['Tony Bennett', 'Lady Gaga'],
+      artist: [
+        {
+          aPId: 'aP12',
+          artistName: 'Tony Bennett',
+        },
+        {
+          aPId: 'aP13',
+          artistName: 'Lady Gaga',
+        },
+      ],
     },
   },
   {
@@ -137,7 +198,12 @@ export const newPublishedList = [
     },
     content: {
       title: "It's All Make Sense In The End",
-      artist: ['James Arthur'],
+      artist: [
+        {
+          aPId: 'aP14',
+          artistName: 'James Arthur',
+        },
+      ],
     },
   },
 ];
