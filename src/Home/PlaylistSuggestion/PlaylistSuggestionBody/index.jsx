@@ -9,7 +9,11 @@ import Card from '../../components/Card';
 const PlaylistSuggestionBody = ({ suggestList }) => (
   <div className="playlist-suggestion-body">
     {suggestList.map((suggest) => (
-      <Card cardItem={suggest} cardType="suggestion" />
+      <Card
+        cardItem={suggest}
+        cardType="playlist-suggestion"
+        key={suggest.id}
+      />
     ))}
   </div>
 );
