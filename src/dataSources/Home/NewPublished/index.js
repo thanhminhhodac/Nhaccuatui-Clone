@@ -25,9 +25,8 @@ export const newPublishedList = [
         },
       ],
     },
-    count: {
-      countType: 'Listen',
-      countAmount: 17609,
+    detail: {
+      listenAmount: 17609,
     },
   },
   {
@@ -53,9 +52,8 @@ export const newPublishedList = [
         },
       ],
     },
-    count: {
-      countType: 'Listen',
-      countAmount: 1652,
+    detail: {
+      listenAmount: 1652,
     },
   },
   {
@@ -77,9 +75,8 @@ export const newPublishedList = [
         },
       ],
     },
-    count: {
-      countType: 'Listen',
-      countAmount: 16,
+    detail: {
+      listenAmount: 16,
     },
   },
   {
@@ -97,9 +94,8 @@ export const newPublishedList = [
         },
       ],
     },
-    count: {
-      countType: 'Listen',
-      countAmount: 33,
+    detail: {
+      listenAmount: 33,
     },
   },
   {
@@ -117,9 +113,8 @@ export const newPublishedList = [
         },
       ],
     },
-    count: {
-      countType: 'Listen',
-      countAmount: 45702,
+    detail: {
+      listenAmount: 45702,
     },
   },
   {
