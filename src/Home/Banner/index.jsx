@@ -18,13 +18,7 @@ const Banner = () => (
       }}
     >
       <Content
-        className="banner-content"
-        type="title"
-        content={bannerData.bannerTitle}
-      />
-      <Content
-        className="banner-content"
-        type="content"
+        title={bannerData.bannerTitle}
         content={bannerData.bannerContent}
       />
       <Button bannerButton={bannerData.bannerButton} />
