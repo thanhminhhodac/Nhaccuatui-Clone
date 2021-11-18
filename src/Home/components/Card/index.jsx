@@ -4,12 +4,17 @@ import PropTypes from 'prop-types';
 // components
 import CardAvatar from './mains/CardAvatar';
 import CardContent from './mains/CardContent';
+import CardDetail from './components/CardDetail';
 // style
 import './style.scss';
 
 const Card = ({ cardItem, cardType }) => (
-  <div className="card-wrapper">
-    <CardAvatar cardAvatar={cardItem.avatar} cardType={cardType} />
+  <div className={['card', `card-${cardType}-wrapper`].join(' ')}>
+    <CardAvatar cardAvatar={cardItem.avatar} cardType={cardType}>
+      {cardItem.detail && (
+        <CardDetail cardDetail={cardItem.detail} cardType={cardType} />
+      )}
+    </CardAvatar>
     {cardItem.content && (
       <CardContent cardContent={cardItem.content} cardType={cardType} />
     )}
@@ -18,8 +23,9 @@ const Card = ({ cardItem, cardType }) => (
 
 Card.propTypes = {
   cardItem: PropTypes.shape({
-    avatar: PropTypes.shape({}).isRequired,
+    avatar: PropTypes.shape({}),
     content: PropTypes.shape({}),
+    detail: PropTypes.shape({}),
   }).isRequired,
   cardType: PropTypes.string,
 };
