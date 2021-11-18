@@ -1,0 +1,11 @@
+.card-content-artist {
+  display: inline-block;
+  opacity: 0.6;
+  margin-right: 2px;
+  cursor: pointer;
+  font-size: 12px;
+
+  &:hover {
+    color: #2daaed;
+  }
+}
