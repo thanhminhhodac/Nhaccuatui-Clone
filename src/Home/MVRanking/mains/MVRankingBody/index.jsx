@@ -10,7 +10,7 @@ import './style.scss';
 const MVRankingBody = ({ rankingPlaces, rankingList }) => (
   <div className="mv-ranking-body">
     <RankingPlace places={rankingPlaces} />
-    <RankingList list={rankingList[0].topList} />
+    <RankingList list={rankingList[0].topList} rankingType="mv-ranking" />
   </div>
 );
 
