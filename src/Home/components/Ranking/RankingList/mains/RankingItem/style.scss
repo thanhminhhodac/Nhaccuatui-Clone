@@ -75,10 +75,18 @@
       & .ordering-view-wrapper {
         position: absolute;
         left: 0;
-        bottom: 8px;
+        bottom: 10px;
         z-index: 3;
         background-color: #e74c3c;
         color: #fff;
+      }
+
+      & .card.card-song-ranking-wrapper {
+        & .card-avatar-wrapper {
+          display: block;
+          width: 100px;
+          height: 100px;
+        }
       }
     }
 

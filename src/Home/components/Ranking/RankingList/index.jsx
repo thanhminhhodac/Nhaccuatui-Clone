@@ -8,7 +8,12 @@ import RankingItem from './mains/RankingItem';
 import './style.scss';
 
 const RankingList = ({ list, rankingType }) => (
-  <div className={classNames('ranking-list-wrapper', `${rankingType}-wrapper`)}>
+  <div
+    className={classNames(
+      'ranking-list-wrapper',
+      `${rankingType}-list-wrapper`,
+    )}
+  >
     <div className="ranking-list-wrapper-inner">
       {list.map((item, index) => (
         <RankingItem
