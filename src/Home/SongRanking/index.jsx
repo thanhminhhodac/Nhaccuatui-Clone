@@ -13,7 +13,7 @@ import {
 
 const SongRanking = () => (
   <div className="song-ranking-wrapper">
-    <Heading title="BXH bài hát" />
+    <Heading title="BXH bài hát" play />
     <SongRankingBody
       rankingList={songRankingList}
       rankingPlaces={songRankingPlaces}
