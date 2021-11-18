@@ -1,0 +1,38 @@
+.ranking-item-wrapper {
+  position: relative;
+  width: 300px;
+  padding: 8px 0;
+  border-bottom: #f3f3f3 solid 1px;
+  height: 48px;
+
+  &-inner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &:first-child {
+    height: 100px;
+
+    & .ordering-view-wrapper {
+      position: absolute;
+      left: 0;
+      bottom: 8px;
+      z-index: 3;
+      background-color: #e74c3c;
+      color: #fff;
+    }
+  }
+
+  &:nth-child(2) {
+    & .ordering-view-wrapper {
+      color: #1abc9c;
+    }
+  }
+
+  &:nth-child(3) {
+    & .ordering-view-wrapper {
+      color: #f39c12;
+    }
+  }
+}
