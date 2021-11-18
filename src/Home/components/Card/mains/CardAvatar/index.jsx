@@ -7,7 +7,12 @@ import CardImage from '../../components/CardImage';
 // style
 import './style.scss';
 
-const typeCardPlay = ['playlist-suggestion', 'new-published', 'hot-mv'];
+const typeCardPlay = [
+  'playlist-suggestion',
+  'new-published',
+  'hot-mv',
+  'mv-ranking',
+];
 
 const CardAvatar = ({ cardAvatar, cardType, ...props }) => (
   <div className={['card-avatar-wrapper', `card-${cardType}`].join(' ')}>

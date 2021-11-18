@@ -40,7 +40,8 @@
   }
 }
 
-.card.card-song-ranking-wrapper {
+.card.card-song-ranking-wrapper,
+.card.card-mv-ranking-wrapper {
   display: flex;
   flex: 1;
   gap: 8px;
