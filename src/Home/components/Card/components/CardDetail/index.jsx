@@ -15,6 +15,18 @@ const CardDetail = ({ cardDetail, cardType }) => (
           {cardDetail.listenAmount}
         </div>
       )}
+      {cardDetail.watchAmount && (
+        <div className="card-detail-watch">
+          <CustomerServiceOutlined />
+          {cardDetail.watchAmount}
+        </div>
+      )}
+      {cardDetail.videoTime && (
+        <div className="card-detail-time">
+          <CustomerServiceOutlined />
+          {cardDetail.videoTime}
+        </div>
+      )}
     </div>
   </div>
 );
@@ -22,6 +34,8 @@ const CardDetail = ({ cardDetail, cardType }) => (
 CardDetail.propTypes = {
   cardDetail: PropTypes.shape({
     listenAmount: PropTypes.number,
+    watchAmount: PropTypes.number,
+    videoTime: PropTypes.string,
   }).isRequired,
   cardType: PropTypes.string.isRequired,
 };
