@@ -22,7 +22,7 @@ export const songRankingList = [
         id: 'sId2',
         content: {
           title: 'Câu Hứa Chưa Vẹn Tròn',
-          artistName: [
+          artist: [
             {
               aPId: 'aP27',
               artistName: 'Phát',
@@ -38,7 +38,7 @@ export const songRankingList = [
         id: 'sId3',
         content: {
           title: 'Cưới Thôi',
-          artistName: [
+          artist: [
             {
               aPId: 'aP26',
               artistName: 'Masew',
@@ -58,7 +58,7 @@ export const songRankingList = [
         id: 'sId4',
         content: {
           title: 'Thê Lương',
-          artistName: [
+          artist: [
             {
               aPId: 'aP31',
               artistName: 'Phúc Chinh',
@@ -70,7 +70,7 @@ export const songRankingList = [
         id: 'sId5',
         content: {
           title: 'Tình Thương Phu Thê',
-          artistName: [
+          artist: [
             {
               aPId: 'aP32',
               artistName: 'Chí Hướng',
@@ -82,7 +82,7 @@ export const songRankingList = [
         id: 'sId6',
         content: {
           title: 'Diệu dàng em đến',
-          artistName: [
+          artist: [
             {
               aPId: 'aP33',
               artistName: 'ERIK',
@@ -175,7 +175,7 @@ export const songRankingList = [
         id: 'sId2',
         content: {
           title: 'Câu Hứa Chưa Vẹn Tròn',
-          artistName: [
+          artist: [
             {
               aPId: 'aP27',
               artistName: 'Phát',
@@ -191,7 +191,7 @@ export const songRankingList = [
         id: 'sId3',
         content: {
           title: 'Cưới Thôi',
-          artistName: [
+          artist: [
             {
               aPId: 'aP26',
               artistName: 'Masew',
@@ -211,7 +211,7 @@ export const songRankingList = [
         id: 'sId4',
         content: {
           title: 'Thê Lương',
-          artistName: [
+          artist: [
             {
               aPId: 'aP31',
               artistName: 'Phúc Chinh',
@@ -223,7 +223,7 @@ export const songRankingList = [
         id: 'sId5',
         content: {
           title: 'Tình Thương Phu Thê',
-          artistName: [
+          artist: [
             {
               aPId: 'aP32',
               artistName: 'Chí Hướng',
@@ -235,7 +235,7 @@ export const songRankingList = [
         id: 'sId6',
         content: {
           title: 'Diệu dàng em đến',
-          artistName: [
+          artist: [
             {
               aPId: 'aP33',
               artistName: 'ERIK',
@@ -328,7 +328,7 @@ export const songRankingList = [
         id: 'sId2',
         content: {
           title: 'Câu Hứa Chưa Vẹn Tròn',
-          artistName: [
+          artist: [
             {
               aPId: 'aP27',
               artistName: 'Phát',
@@ -344,7 +344,7 @@ export const songRankingList = [
         id: 'sId3',
         content: {
           title: 'Cưới Thôi',
-          artistName: [
+          artist: [
             {
               aPId: 'aP26',
               artistName: 'Masew',
@@ -364,7 +364,7 @@ export const songRankingList = [
         id: 'sId4',
         content: {
           title: 'Thê Lương',
-          artistName: [
+          artist: [
             {
               aPId: 'aP31',
               artistName: 'Phúc Chinh',
@@ -376,7 +376,7 @@ export const songRankingList = [
         id: 'sId5',
         content: {
           title: 'Tình Thương Phu Thê',
-          artistName: [
+          artist: [
             {
               aPId: 'aP32',
               artistName: 'Chí Hướng',
@@ -388,7 +388,7 @@ export const songRankingList = [
         id: 'sId6',
         content: {
           title: 'Diệu dàng em đến',
-          artistName: [
+          artist: [
             {
               aPId: 'aP33',
               artistName: 'ERIK',

@@ -1,13 +1,48 @@
 .card-avatar-wrapper {
   position: relative;
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
-  width: 152px;
-  height: 152px;
   background-color: #000;
   overflow: hidden;
+
   &.card {
     &-artist {
+      width: 152px;
+      height: 152px;
       border-radius: 50%;
+    }
+
+    &-new-published,
+    &-top-hundred {
+      width: 152px;
+      height: 152px;
+    }
+
+    &-hot-mv {
+      width: 195px;
+      height: 105px;
+    }
+  }
+
+  .card-icon-play {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    display: none;
+    transition: opacity 1s ease-in;
+    font-size: 48px;
+    color: rgb(241, 235, 235);
+  }
+
+  &:hover {
+    & .card-icon-play {
+      display: block;
+    }
+
+    & .card-image {
+      opacity: 0.5;
     }
   }
 }
