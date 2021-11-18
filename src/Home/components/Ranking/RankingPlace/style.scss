@@ -1,0 +1,32 @@
+.ranking-place-wrapper {
+  margin-bottom: 12px;
+
+  &-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 32px;
+    border-radius: 50px;
+    overflow: hidden;
+    line-height: 32px;
+    background-color: #ccc;
+
+    & .ranking-place-choose {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 99px;
+      height: 32px;
+      cursor: pointer;
+      line-height: 32px;
+      color: #000;
+
+      &:hover,
+      &.active {
+        background-color: #e74c3c;
+        color: #fff;
+      }
+    }
+  }
+}

@@ -2,8 +2,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // components
-import RankingPlace from '../../components/RankingPlace';
-import RankingList from '../../components/RankingList';
+import RankingPlace from '../../../components/Ranking/RankingPlace';
+import RankingList from '../../../components/Ranking/RankingList';
+// style
+import './style.scss';
 
 const SongRankingBody = ({ rankingPlaces, rankingList }) => (
   <div className="song-ranking-body">
