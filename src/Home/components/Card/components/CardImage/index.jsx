@@ -15,8 +15,13 @@ const CardImage = ({ cardImage, cardDescription }) => (
 );
 
 CardImage.propTypes = {
-  cardImage: PropTypes.string.isRequired,
-  cardDescription: PropTypes.string.isRequired,
+  cardImage: PropTypes.string,
+  cardDescription: PropTypes.string,
+};
+
+CardImage.defaultProps = {
+  cardImage: null,
+  cardDescription: null,
 };
 
 export default CardImage;

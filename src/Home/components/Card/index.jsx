@@ -9,7 +9,9 @@ import './style.scss';
 
 const Card = ({ cardItem, cardType }) => (
   <div className="card-wrapper">
-    <CardAvatar cardAvatar={cardItem.avatar} cardType={cardType} />
+    {cardItem.avatar && (
+      <CardAvatar cardAvatar={cardItem.avatar} cardType={cardType} />
+    )}
     {cardItem.content && (
       <CardContent cardContent={cardItem.content} cardType={cardType} />
     )}
@@ -18,14 +20,18 @@ const Card = ({ cardItem, cardType }) => (
 
 Card.propTypes = {
   cardItem: PropTypes.shape({
-    avatar: PropTypes.shape({}).isRequired,
+    avatar: PropTypes.shape({}),
     content: PropTypes.shape({}),
-  }).isRequired,
+  }),
   cardType: PropTypes.string,
 };
 
 Card.defaultProps = {
   cardType: null,
+  cardItem: {
+    avatar: null,
+    content: null,
+  },
 };
 
 export default Card;
