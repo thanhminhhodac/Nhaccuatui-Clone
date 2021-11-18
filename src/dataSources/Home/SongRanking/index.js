@@ -1,3 +1,5 @@
+import sRI1 from '../../../assets/SongRanking/1.jpg';
+
 export const songRankingList = [
   {
     sRP: 'sRP1',
@@ -5,8 +7,8 @@ export const songRankingList = [
       {
         id: 'sId1',
         avatar: {
-          avatarImage: 'ádf',
-          avatarDescription: 'da',
+          avatarImage: sRI1,
+          avatarDescription: 'Ái nộ',
         },
         content: {
           title: 'Ái nộ',
