@@ -1,6 +1,8 @@
 // libs
 import React from 'react';
 import PropTypes from 'prop-types';
+// style
+import './style.scss';
 
 const SectionHeading = ({ label }) => (
   <div className="section-heading-wrapper">
