@@ -1,0 +1,27 @@
+.card-detail-wrapper {
+  & .card-detail {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4px;
+    min-width: 40px;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    color: #fff;
+
+    &.detail-listen,
+    &.detail-watch {
+      top: 0;
+      right: 0;
+    }
+
+    &.detail-time {
+      bottom: 0;
+      right: 0;
+      font-weight: 500;
+    }
+  }
+}
