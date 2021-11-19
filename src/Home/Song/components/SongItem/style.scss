@@ -1,6 +1,6 @@
 .song-item-wrapper {
   border-top: 1px solid #ccc;
-  padding: 8px 0;
+  padding: 8px 12px 8px 0;
 
   &-inner {
     display: flex;
@@ -15,6 +15,16 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+    }
+  }
+
+  &:hover {
+    & .card-detail-wrapper {
+      display: none;
+    }
+
+    & .song-functional-wrapper {
+      display: block;
     }
   }
 }
