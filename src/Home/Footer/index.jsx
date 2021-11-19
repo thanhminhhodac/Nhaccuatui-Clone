@@ -1,7 +1,7 @@
 // libs
 import React from 'react';
 // components
-import ConnectSlider from './mains/ConnectSlider';
+import CompanyPartner from './mains/CompanyPartner';
 import CompanyInformation from './mains/CompanyInformation';
 import CompanyContact from './mains/CompanyContact';
 // style
@@ -11,7 +11,7 @@ function index() {
   return (
     <div className="footer-wrapper">
       <div className="footer-wrapper-inner">
-        <ConnectSlider />
+        <CompanyPartner />
         <CompanyInformation />
         <CompanyContact />
       </div>
