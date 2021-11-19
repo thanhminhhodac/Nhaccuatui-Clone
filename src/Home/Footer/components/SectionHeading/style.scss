@@ -1,0 +1,10 @@
+.section-heading-wrapper {
+  display: block;
+
+  & .section-heading-label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+  }
+}

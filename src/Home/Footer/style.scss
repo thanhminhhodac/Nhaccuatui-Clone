@@ -1,5 +1,8 @@
-.footer {
-  height: 665px;
-  background-color: #e87272;
+.footer-wrapper {
   grid-area: footer;
+
+  .footer-inner {
+    display: grid;
+    grid-template-rows: 148px 468px 64px;
+  }
 }
