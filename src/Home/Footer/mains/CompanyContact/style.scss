@@ -1,3 +1,16 @@
-.company-infomation-wrapper {
+.company-contact-wrapper {
   padding: 0 90px;
+  background: linear-gradient(to right, #2f80ed 0%, #00aeef 100%);
+
+  .company-contact-wrapper-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .company-contact-copyright-label {
+    font-size: 12px;
+    color: #fff;
+  }
 }
