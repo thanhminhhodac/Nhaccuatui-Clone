@@ -1,0 +1,17 @@
+.company-certification-info-wrapper {
+  color: rgb(117, 117, 117);
+
+  & .info-title {
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+  & .info-ul {
+    padding: 0 20px;
+    font-size: 13px;
+
+    & li {
+      margin-bottom: 4px;
+    }
+  }
+}
