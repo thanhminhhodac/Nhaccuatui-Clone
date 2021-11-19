@@ -1,0 +1,20 @@
+.ultilities-key-word-wrapper {
+  &-inner {
+    & .ultilities-key-word {
+      &-body {
+        margin-top: 12px;
+      }
+
+      &-item {
+        display: inline-block;
+        margin-right: 8px;
+        cursor: pointer;
+        font-size: 12px;
+
+        &:hover {
+          color: #2daaed;
+        }
+      }
+    }
+  }
+}
