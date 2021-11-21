@@ -6,7 +6,7 @@ import './style.scss';
 import Heading from '../components/Heading';
 import HotTopicBody from './mains/HotTopicBody';
 // other
-import { hotTopicList } from '../../Datasource/Home/HotTopic';
+import { hotTopicList } from '../../dataSources/Home/HotTopic';
 
 const HotTopic = () => (
   <div className="hot-topic-wrapper">

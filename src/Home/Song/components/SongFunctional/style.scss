@@ -1,0 +1,22 @@
+.song-functional-wrapper {
+  width: 100px;
+  height: auto;
+  display: none;
+
+  &-inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+
+    & .song-functional-icon {
+      font-size: 15px;
+      font-weight: 300;
+
+      &:hover {
+        color: #1890ff;
+      }
+    }
+  }
+}

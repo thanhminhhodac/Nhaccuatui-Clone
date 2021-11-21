@@ -19,7 +19,7 @@ import {
   logoItem,
   newVersionItem,
   functionalList,
-} from '../../Datasource/Home/Header';
+} from '../../dataSources/Home/Header';
 
 const Header = () => (
   <div className="header-wrapper">

@@ -9,7 +9,7 @@ import './style.scss';
 const WeeklyArtistBody = ({ artistList }) => (
   <div className="weekly-artis-body">
     {artistList.map((artistItem) => (
-      <Card cardItem={artistItem} cardType="artist" />
+      <Card cardItem={artistItem} cardType="artist" key={artistItem.id} />
     ))}
   </div>
 );

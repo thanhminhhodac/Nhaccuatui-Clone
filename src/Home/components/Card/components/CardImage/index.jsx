@@ -1,6 +1,7 @@
 // lib
 import React from 'react';
 import PropTypes from 'prop-types';
+// components
 // style
 import './style.scss';
 

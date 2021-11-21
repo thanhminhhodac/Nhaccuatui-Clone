@@ -1,0 +1,37 @@
+.company-partner-body-wrapper {
+  position: relative;
+  margin-top: 12px;
+
+  &-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.partner-item-wrapper {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  padding: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  &-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    & .partner-item-image {
+      width: auto;
+      max-width: 90%;
+      max-height: 80%;
+    }
+  }
+}

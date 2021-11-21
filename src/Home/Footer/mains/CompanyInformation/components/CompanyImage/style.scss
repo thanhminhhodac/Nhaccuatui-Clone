@@ -1,0 +1,28 @@
+.company-image-wrapper {
+  display: flex;
+  align-items: center;
+
+  &.logo-image {
+    width: 90px;
+    height: 90px;
+  }
+
+  &.certificate-image {
+    width: 120px;
+    height: 126px;
+  }
+
+  &.social-media-image {
+    width: 32px;
+    height: 32px;
+  }
+
+  &.app-image {
+    width: 108px;
+    height: 32px;
+  }
+
+  & .company-image {
+    width: 100%;
+  }
+}

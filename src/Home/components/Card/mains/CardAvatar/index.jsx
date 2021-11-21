@@ -19,6 +19,7 @@ const CardAvatar = ({ cardAvatar, cardType, ...props }) => (
     <CardImage
       cardImage={cardAvatar.avatarImage}
       cardDescription={cardAvatar.avatarDescription}
+      cardPlay={cardType?.indexOf(typeCardPlay) !== -1}
     />
     {typeCardPlay.includes(cardType) && (
       <PlayCircleFilled className="card-icon-play" />
