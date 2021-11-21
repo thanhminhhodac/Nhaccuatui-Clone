@@ -10,11 +10,13 @@ import './style.scss';
 
 const Card = ({ cardItem, cardType }) => (
   <div className={['card', `card-${cardType}-wrapper`].join(' ')}>
-    <CardAvatar cardAvatar={cardItem.avatar} cardType={cardType}>
-      {cardItem.detail && (
-        <CardDetail cardDetail={cardItem.detail} cardType={cardType} />
-      )}
-    </CardAvatar>
+    {cardItem.avatar && (
+      <CardAvatar cardAvatar={cardItem.avatar} cardType={cardType}>
+        {cardItem.detail && (
+          <CardDetail cardDetail={cardItem.detail} cardType={cardType} />
+        )}
+      </CardAvatar>
+    )}
     {cardItem.content && (
       <CardContent cardContent={cardItem.content} cardType={cardType} />
     )}
