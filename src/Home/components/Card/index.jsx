@@ -17,11 +17,6 @@ const Card = ({ cardItem, cardType }) => (
         )}
       </CardAvatar>
     )}
-    <CardAvatar cardAvatar={cardItem.avatar} cardType={cardType}>
-      {cardItem.detail && (
-        <CardDetail cardDetail={cardItem.detail} cardType={cardType} />
-      )}
-    </CardAvatar>
     {cardItem.content && (
       <CardContent cardContent={cardItem.content} cardType={cardType} />
     )}
