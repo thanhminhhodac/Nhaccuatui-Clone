@@ -8,7 +8,7 @@ import CardContent from './mains/CardContent';
 import './style.scss';
 
 const Card = ({ cardItem, cardType }) => (
-  <div className="card-wrapper">
+  <div className={['card', `card-${cardType}-wrapper`].join(' ')}>
     <CardAvatar cardAvatar={cardItem.avatar} cardType={cardType} />
     {cardItem.content && (
       <CardContent cardContent={cardItem.content} cardType={cardType} />

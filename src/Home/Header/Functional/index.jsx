@@ -9,7 +9,10 @@ import './style.scss';
 const Functional = ({ functionalList }) => (
   <div className="functional-wrapper">
     {functionalList.map((functionItem) => (
-      <FunctionalItem image={functionItem.functionalImage} />
+      <FunctionalItem
+        image={functionItem.functionalImage}
+        key={functionItem.id}
+      />
     ))}
   </div>
 );
@@ -18,6 +21,7 @@ Functional.propTypes = {
   functionalList: PropTypes.arrayOf(
     PropTypes.shape({
       functionalImage: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired,
     }),
   ).isRequired,
 };

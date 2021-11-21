@@ -6,7 +6,7 @@ import './style.scss';
 import TopHundredBody from './mains/TopHundredBody';
 import Heading from '../components/Heading';
 // other
-import { topHundredList } from '../../Datasource/Home/TopHundred';
+import { topHundredList } from '../../dataSources/Home/TopHundred';
 
 const TopHundred = () => (
   <div className="top-hundred-wrapper">
