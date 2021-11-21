@@ -24,18 +24,4 @@
       font-weight: 500;
     }
   }
-
-  &.card-detail-song {
-    width: 100px;
-    height: auto;
-
-    & .card-detail.detail-listen {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      background-color: #fff;
-      color: rgba(0, 0, 0, 0.5);
-    }
-  }
 }

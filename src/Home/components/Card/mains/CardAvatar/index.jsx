@@ -7,14 +7,19 @@ import CardImage from '../../components/CardImage';
 // style
 import './style.scss';
 
-const typeCardPlay = ['playlist-suggestion', 'new-published', 'hot-mv'];
+const typeCardPlay = [
+  'playlist-suggestion',
+  'new-published',
+  'hot-mv',
+  'mv-ranking',
+];
 
 const CardAvatar = ({ cardAvatar, cardType, ...props }) => (
   <div className={['card-avatar-wrapper', `card-${cardType}`].join(' ')}>
     <CardImage
       cardImage={cardAvatar.avatarImage}
       cardDescription={cardAvatar.avatarDescription}
-      cardPlay={cardType.indexOf(typeCardPlay) !== -1}
+      cardPlay={cardType?.indexOf(typeCardPlay) !== -1}
     />
     {typeCardPlay.includes(cardType) && (
       <PlayCircleFilled className="card-icon-play" />
