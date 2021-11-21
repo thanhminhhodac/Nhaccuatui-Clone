@@ -6,7 +6,7 @@ import WeeklyArtistBody from './mains/WeeklyArtistBody';
 // styles
 import './style.scss';
 // other
-import { weeklyArtistList } from '../../Datasource/Home/WeeklyArtist';
+import { weeklyArtistList } from '../../dataSources/Home/WeeklyArtist';
 
 const WeeklyArtist = () => (
   <div className="weekly-artist-wrapper">
