@@ -1,0 +1,14 @@
+.connect-us-body-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0;
+
+  & .social-media-image {
+    margin-right: 16px;
+  }
+
+  & .app-image {
+    margin-right: 20px;
+  }
+}

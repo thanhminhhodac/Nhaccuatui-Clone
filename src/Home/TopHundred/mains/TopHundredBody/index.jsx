@@ -9,7 +9,7 @@ import './style.scss';
 const TopHundredBody = ({ topHundredList }) => (
   <div className="top-hundred-body">
     {topHundredList.map((cardItem) => (
-      <Card cardItem={cardItem} cardType="top-hundred" />
+      <Card cardItem={cardItem} cardType="top-hundred" key={cardItem.id} />
     ))}
   </div>
 );

@@ -1,0 +1,33 @@
+.ultilities-section-wrapper {
+  grid-row: 1/ 3;
+
+  &-inner {
+    & .ultilities-section-label {
+      &-body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 24px;
+      }
+
+      &-item {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        cursor: pointer;
+        font-size: 13px;
+        padding: 12px 0;
+
+        &:hover {
+          color: #2daaed;
+        }
+
+        & .right-icon {
+          font-size: 6px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

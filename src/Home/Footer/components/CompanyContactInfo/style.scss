@@ -1,0 +1,12 @@
+.company-contact-info {
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 20px;
+
+  & .company-contact-info-icon {
+    font-size: 14px;
+    margin-right: 6px;
+    padding-top: 2px;
+  }
+}
