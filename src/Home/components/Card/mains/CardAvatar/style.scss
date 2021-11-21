@@ -18,6 +18,17 @@
   }
 
   &.card {
+    &-song {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 0;
+    }
+
+    &-playlist-suggestion {
+      width: 152px;
+      height: 152px;
+    }
+
     &-artist {
       width: 152px;
       height: 152px;
