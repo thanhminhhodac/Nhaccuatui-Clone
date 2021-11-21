@@ -7,6 +7,8 @@
 .main-wrapper {
   padding: 0 90px;
   grid-area: main;
+  display: flex;
+  justify-content: center;
 
   &-inner {
     display: grid;
@@ -26,5 +28,6 @@
       "song hot-topic"
       "top-hundred ."
       "weekly-artist .";
+    max-width: 1200px;
   }
 }
