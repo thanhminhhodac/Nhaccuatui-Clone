@@ -6,11 +6,9 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 const CardImage = ({ cardImage, cardDescription }) => (
-  <>
-    <div className="card-image-wrapper">
-      <img className="card-image" src={cardImage} alt={cardDescription} />
-    </div>
-  </>
+  <div className="card-image-wrapper">
+    <img className="card-image" src={cardImage} alt={cardDescription} />
+  </div>
 );
 
 CardImage.propTypes = {
