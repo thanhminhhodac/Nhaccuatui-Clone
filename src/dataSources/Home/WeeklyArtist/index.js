@@ -6,6 +6,7 @@ import wAImage5 from '../../../assets/WeeklyArtist/5.jpg';
 
 export const weeklyArtistList = [
   {
+    id: 'wA1',
     avatar: {
       avatarImage: wAImage1,
       avatarDescription: 'Kalee Hoàng Avatar',
@@ -15,6 +16,7 @@ export const weeklyArtistList = [
     },
   },
   {
+    id: 'wA2',
     avatar: {
       avatarImage: wAImage2,
       avatarDescription: 'Masew Avatar',
@@ -24,6 +26,7 @@ export const weeklyArtistList = [
     },
   },
   {
+    id: 'wA3',
     avatar: {
       avatarImage: wAImage3,
       avatarDescription: 'Thảo Wendy Avatar',
@@ -33,6 +36,7 @@ export const weeklyArtistList = [
     },
   },
   {
+    id: 'wA4',
     avatar: {
       avatarImage: wAImage4,
       avatarDescription: 'Bích Phương Avatar',
@@ -42,6 +46,7 @@ export const weeklyArtistList = [
     },
   },
   {
+    id: 'wA5',
     avatar: {
       avatarImage: wAImage5,
 

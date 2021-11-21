@@ -6,30 +6,35 @@ import tHImage5 from '../../../assets/TopHundred/5.jpg';
 
 export const topHundredList = [
   {
+    id: 'tH1',
     avatar: {
       avatarImage: tHImage1,
-      avtataDescription: 'Nhạc trẻ',
+      avatarDescription: 'Nhạc trẻ',
     },
   },
   {
+    id: 'tH2',
     avatar: {
       avatarImage: tHImage2,
       avatarDescription: 'Pop USUK',
     },
   },
   {
+    id: 'tH3',
     avatar: {
       avatarImage: tHImage3,
       avatarDescription: 'Rap Việt',
     },
   },
   {
+    id: 'tH4',
     avatar: {
       avatarDescription: 'Blue Jazz',
       avatarImage: tHImage4,
     },
   },
   {
+    id: 'tH5',
     avatar: {
       avatarImage: tHImage5,
       avatarDescription: 'Country',
