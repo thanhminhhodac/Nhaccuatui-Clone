@@ -20,7 +20,7 @@ import SongRanking from './SongRanking';
 import './style.scss';
 
 // other
-import { suggestList } from '../Datasource/Home/PlaylistSuggestion';
+import { suggestList } from '../dataSources/Home/PlaylistSuggestion';
 
 const Home = () => (
   <div className="home-wrapper">
@@ -34,6 +34,7 @@ const Home = () => (
             <PlaylistSuggestion
               title={suggest.title}
               suggestList={suggest.list}
+              key={suggest.sPLid}
             />
           ))
         }

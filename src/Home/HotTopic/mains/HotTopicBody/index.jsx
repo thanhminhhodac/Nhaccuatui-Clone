@@ -12,6 +12,7 @@ const HotTopicBody = ({ hotTopicList }) => (
       <TopicImage
         topicImage={topic.topicImage}
         description={topic.description}
+        key={topic.id}
       />
     ))}
   </div>
