@@ -1,0 +1,12 @@
+.company-ulitilities-wrapper {
+  padding: 12px 0 40px;
+
+  &-inner {
+    display: grid;
+    grid-template-areas:
+      " support moreService topKeyWord"
+      " support moreSerice connectUs";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+  }
+}
