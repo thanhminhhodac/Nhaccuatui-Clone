@@ -10,7 +10,7 @@ import './style.scss';
 const SongRankingBody = ({ rankingPlaces, rankingList }) => (
   <div className="song-ranking-body">
     <RankingPlace places={rankingPlaces} />
-    <RankingList list={rankingList[0].topList} />
+    <RankingList list={rankingList[0].topList} rankingType="song-ranking" />
   </div>
 );
 
