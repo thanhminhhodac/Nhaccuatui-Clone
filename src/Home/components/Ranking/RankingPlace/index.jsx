@@ -20,7 +20,7 @@ RankingPlace.propTypes = {
   places: PropTypes.arrayOf(
     PropTypes.shape({
       sRP: PropTypes.string.isRequired,
-      songPlace: PropTypes.string.isRequired,
+      listPlace: PropTypes.string.isRequired,
     }),
   ).isRequired,
 };
