@@ -289,14 +289,14 @@ export const mvRankingList = [
 export const mvRankingPlaces = [
   {
     listPlace: 'Việt Nam',
-    sRP: 'sRP1',
+    lRP: 'MvRP1',
   },
   {
     listPlace: 'Âu Mỹ',
-    sRP: 'sRP2',
+    lRP: 'MvRP2',
   },
   {
     listPlace: 'Hàn Quốc',
-    sRP: 'sRP1',
+    lRP: 'MvRP3',
   },
 ];

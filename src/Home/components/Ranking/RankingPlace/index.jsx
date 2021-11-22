@@ -8,7 +8,7 @@ const RankingPlace = ({ places }) => (
   <div className="ranking-place-wrapper">
     <div className="ranking-place-wrapper-inner">
       {places.map((place) => (
-        <div className="ranking-place-choose" key={place.sRP}>
+        <div className="ranking-place-choose" key={place.lRP}>
           <span>{place.listPlace}</span>
         </div>
       ))}
@@ -19,7 +19,7 @@ const RankingPlace = ({ places }) => (
 RankingPlace.propTypes = {
   places: PropTypes.arrayOf(
     PropTypes.shape({
-      sRP: PropTypes.string.isRequired,
+      lRP: PropTypes.string.isRequired,
       listPlace: PropTypes.string.isRequired,
     }),
   ).isRequired,
