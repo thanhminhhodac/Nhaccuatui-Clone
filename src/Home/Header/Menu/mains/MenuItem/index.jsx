@@ -1,25 +1,34 @@
 // libs
 import React from 'react';
 import PropTypes from 'prop-types';
-
+// context
+import { useLocale } from '../../../../../contexts/LocaleContext';
 // style
 import './style.scss';
 
-const MenuItem = ({ title, imageUrl, textDisplay }) => (
-  <div className="menu-item-wrapper">
-    <div className="menu-item-title">
-      {imageUrl ? (
-        <img src={imageUrl} alt={title} className="menu-item-image" />
-      ) : (
-        <span>{textDisplay}</span>
-      )}
+const MenuItem = ({ imageUrl, name }) => {
+  const { localeDataSource } = useLocale();
+  const { menuName } = localeDataSource;
+
+  return (
+    <div className="menu-item-wrapper">
+      <div className="menu-item-title">
+        {imageUrl ? (
+          <img
+            src={imageUrl}
+            alt={menuName[name]}
+            className="menu-item-image"
+          />
+        ) : (
+          <span>{menuName[name]}</span>
+        )}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 MenuItem.propTypes = {
-  title: PropTypes.string.isRequired,
-  textDisplay: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   imageUrl: PropTypes.string,
 };
 
