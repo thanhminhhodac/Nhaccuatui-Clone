@@ -1,9 +1,14 @@
+// components
 import Home from './Home';
+// contexts
+import { ProviderLocale } from './contexts/LocaleContext';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <ProviderLocale>
+        <Home />
+      </ProviderLocale>
     </div>
   );
 }
