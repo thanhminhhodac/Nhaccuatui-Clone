@@ -16,7 +16,7 @@ export const ProviderLocale = ({ children }) => {
     setLocale,
     localeDataSource: locales[locale],
   };
-  console.log(provider);
+
   return (
     <LocaleContext.Provider value={provider}>{children}</LocaleContext.Provider>
   );

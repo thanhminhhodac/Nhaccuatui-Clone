@@ -2,15 +2,14 @@
 import React from 'react';
 // context
 import { useLocale } from '../../../../../contexts/LocaleContext';
-// styles
 
 const LocaleSelector = () => {
   const { locale, setLocale, localeDataSource } = useLocale();
+  const { localeOption } = localeDataSource;
 
   const handleLocaleChange = (e) => {
     setLocale(e.target.value);
   };
-  const { localeOption } = localeDataSource;
 
   return (
     <select defaultValue={locale} onChange={handleLocaleChange}>
