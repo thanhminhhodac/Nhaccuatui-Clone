@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import AuthenticationItem from './mains/AuthenticationItem';
 // style
 import './style.scss';
-// context
 
 const Authentication = ({ authenticationList }) => (
   <div className="authentication-wrapper">
