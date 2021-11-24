@@ -29,6 +29,8 @@
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "linebreak-style": ["error", "windows"],
     "react/jsx-one-expression-per-line": [2, { "allow": "single-child" }],
-    "arrow-parens": "off"
+    "implicit-arrow-linebreak": "off",
+    "arrow-parens": "off",
+    "operator-linebreak": ["error", "after"]
   }
 }
