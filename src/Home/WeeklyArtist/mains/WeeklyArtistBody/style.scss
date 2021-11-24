@@ -3,4 +3,24 @@
   justify-content: space-between;
   align-items: flex-start;
   height: 240px;
+
+  &.loading {
+    display: grid;
+    grid-template-areas: " . mains .";
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 1fr;
+    align-self: center;
+    justify-self: center;
+    background-color: #93979927;
+
+    & .ant-spin-nested-loading {
+      grid-area: mains;
+      display: flex;
+      align-self: center;
+      align-items: center;
+      justify-items: center;
+      width: 100%;
+      color: #2daaed;
+    }
+  }
 }
