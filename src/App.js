@@ -1,6 +1,5 @@
 // components
 import Home from './Home';
-// redux
 
 const App = () => (
   <div className="App">
