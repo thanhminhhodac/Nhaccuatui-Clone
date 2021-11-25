@@ -1,4 +1,14 @@
 .company-partner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 12px 90px;
   background-color: #dddddc;
+  overflow: hidden;
+
+  &-inner {
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+  }
 }

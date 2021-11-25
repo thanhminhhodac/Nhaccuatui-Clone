@@ -1,6 +1,10 @@
 .hot-mv-body {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  row-gap: 12px;
+  display: grid;
+  grid-template:
+    "first-child first-child second-child second-child" auto
+    "first-child first-child second-child second-child" auto
+    ". . . ." auto
+    ". . . ." auto
+    / 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
 }

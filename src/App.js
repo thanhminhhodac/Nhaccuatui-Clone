@@ -2,13 +2,15 @@
 import Home from './Home';
 // style
 import 'antd/dist/antd.css';
+// contexts
+import { ProviderLocale } from './contexts/LocaleContext';
 
-function App() {
-  return (
-    <div className="App">
+const App = () => (
+  <div className="App">
+    <ProviderLocale>
       <Home />
-    </div>
-  );
-}
+    </ProviderLocale>
+  </div>
+);
 
 export default App;

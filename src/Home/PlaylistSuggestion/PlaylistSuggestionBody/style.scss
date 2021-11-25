@@ -1,7 +1,8 @@
 .playlist-suggestion {
-  &-body-card {
-    display: flex;
-    justify-content: space-between;
+  &-body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 16px;
   }
 
   &-pagination {

@@ -33,6 +33,10 @@ CardAvatar.propTypes = {
     avatarDescription: PropTypes.string.isRequired,
   }).isRequired,
   cardType: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
+};
+
+CardAvatar.defaultProps = {
+  children: null,
 };
 export default CardAvatar;

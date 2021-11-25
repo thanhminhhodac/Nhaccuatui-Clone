@@ -23,7 +23,7 @@ import {
 
 const Header = () => (
   <div className="header-wrapper">
-    <div className="header-inner">
+    <div className="header-wrapper-inner">
       <Logo logoItem={logoItem} />
       <NewVersion newVersionItem={newVersionItem} />
       <Menu menuList={menuList} />
