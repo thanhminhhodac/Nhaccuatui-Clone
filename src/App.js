@@ -1,4 +1,7 @@
+// components
 import Home from './Home';
+// style
+import 'antd/dist/antd.css';
 
 function App() {
   return (
