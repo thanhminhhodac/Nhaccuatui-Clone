@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import AuthenticationItem from './mains/AuthenticationItem';
 // style
 import './style.scss';
-// other
 
 const Authentication = ({ authenticationList }) => (
   <div className="authentication-wrapper">
@@ -13,7 +12,7 @@ const Authentication = ({ authenticationList }) => (
       {authenticationList.map((authentication) => (
         <AuthenticationItem
           className={authentication.className}
-          label={authentication.label}
+          name={authentication.name}
           key={authentication.id}
         />
       ))}
@@ -25,7 +24,7 @@ Authentication.propTypes = {
   authenticationList: PropTypes.arrayOf(
     PropTypes.shape({
       className: PropTypes.string,
-      label: PropTypes.string,
+      name: PropTypes.string,
       id: PropTypes.string,
     }),
   ).isRequired,

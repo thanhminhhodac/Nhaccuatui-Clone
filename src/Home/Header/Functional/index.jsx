@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // components
 import FunctionalItem from './mains/FunctionalItem';
+import LocaleSelector from './mains/LocaleSelector';
 // styles
 import './style.scss';
 
@@ -14,6 +15,7 @@ const Functional = ({ functionalList }) => (
         key={functionItem.id}
       />
     ))}
+    <LocaleSelector />
   </div>
 );
 
