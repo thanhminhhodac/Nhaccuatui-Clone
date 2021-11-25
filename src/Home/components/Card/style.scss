@@ -4,18 +4,23 @@
 
 .card.card-hot-mv-wrapper {
   position: relative;
-  min-width: 195px;
-  min-height: 170px;
+  width: 100%;
+  height: 100%;
+
+  &:first-child {
+    grid-area: first-child;
+  }
+
+  &:nth-child(2) {
+    grid-area: second-child;
+  }
 
   &:first-child,
   &:nth-child(2) {
-    position: relative;
-    width: 410px;
     height: 230px;
 
     & > div {
       position: absolute;
-      bottom: 0;
 
       &.card-avatar-wrapper {
         width: 100%;
@@ -27,7 +32,8 @@
       }
 
       &.card-content-wrapper {
-        padding: 12px 12px 20px;
+        bottom: 0;
+        padding: 12px;
         color: #fff;
 
         & .card-content-title {

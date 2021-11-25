@@ -12,7 +12,7 @@ const UltilitiesTopKeyWord = ({ keywords, title }) => (
       <SectionHeading label={title} />
       <div className="ultilities-key-word-body">
         {keywords.map((label) => (
-          <div className="ultilities-key-word-item">
+          <div className="ultilities-key-word-item" key={label}>
             <span>{label}</span>
           </div>
         ))}

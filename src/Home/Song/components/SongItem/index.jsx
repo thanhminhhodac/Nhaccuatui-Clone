@@ -21,14 +21,12 @@ const SongItem = ({ song }) => (
 );
 
 SongItem.propTypes = {
-  song: PropTypes.arrayOf(
-    PropTypes.shape({
-      sId: PropTypes.string.isRequired,
-      avatar: PropTypes.shape({}).isRequired,
-      content: PropTypes.shape({}).isRequired,
-      detail: PropTypes.shape({}).isRequired,
-    }),
-  ).isRequired,
+  song: PropTypes.shape({
+    sId: PropTypes.string.isRequired,
+    avatar: PropTypes.shape({}).isRequired,
+    content: PropTypes.shape({}).isRequired,
+    detail: PropTypes.shape({}).isRequired,
+  }).isRequired,
 };
 
 export default SongItem;

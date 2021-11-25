@@ -10,7 +10,7 @@ const NewPublishedBody = ({ publishedList }) => (
   <div className="new-published-body">
     {publishedList.map((publishedItem) => (
       <Card
-        key={publishedList.id}
+        key={publishedItem.id}
         cardItem={publishedItem}
         cardType="new-published"
       />

@@ -465,14 +465,14 @@ export const songRankingList = [
 export const songRankingPlaces = [
   {
     listPlace: 'Việt Nam',
-    sRP: 'sRP1',
+    lRP: 'sRP1',
   },
   {
     listPlace: 'Âu Mỹ',
-    sRP: 'sRP2',
+    lRP: 'sRP2',
   },
   {
     listPlace: 'Hàn Quốc',
-    sRP: 'sRP1',
+    lRP: 'sRP3',
   },
 ];

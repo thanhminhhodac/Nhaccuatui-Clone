@@ -1,5 +1,5 @@
 .top-hundred-body {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 16px;
 }

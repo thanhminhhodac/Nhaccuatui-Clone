@@ -11,7 +11,7 @@ import hMVI10 from '../../../assets/HotMV/10.jpg';
 
 export const hotMVList = [
   {
-    hMVId: 'hMV1',
+    id: 'hMV1',
     avatar: {
       avatarImage: hMVI1,
       avatarDescription: 'Yêu Em Làm Chó',
@@ -31,7 +31,7 @@ export const hotMVList = [
     },
   },
   {
-    hMVId: 'hMV2',
+    id: 'hMV2',
     avatar: {
       avatarImage: hMVI2,
       avatarDescription: 'Em đã yêu người khác rồi',
@@ -51,7 +51,7 @@ export const hotMVList = [
     },
   },
   {
-    hMVId: 'hMV3',
+    id: 'hMV3',
     avatar: {
       avatarImage: hMVI3,
       avatarDescription: 'Người còn thương ta',
@@ -71,7 +71,7 @@ export const hotMVList = [
     },
   },
   {
-    hMVId: 'hMV4',
+    id: 'hMV4',
     avatar: {
       avatarImage: hMVI4,
       avatarDescription: 'Mê Chữ Ê Ê Ê',
@@ -95,7 +95,7 @@ export const hotMVList = [
     },
   },
   {
-    hMVId: 'hMV5',
+    id: 'hMV5',
     avatar: {
       avatarImage: hMVI5,
       avatarDescription: 'Sài Gòn đau lòng quá',
@@ -119,7 +119,7 @@ export const hotMVList = [
     },
   },
   {
-    hMVId: 'hMV6',
+    id: 'hMV6',
     avatar: {
       avatarImage: hMVI6,
       avatarDescription: 'Răng Khôn',
@@ -143,7 +143,7 @@ export const hotMVList = [
     },
   },
   {
-    hMVId: 'hMV7',
+    id: 'hMV7',
     avatar: {
       avatarImage: hMVI7,
       avatarDescription: 'LOCO',
@@ -163,7 +163,7 @@ export const hotMVList = [
     },
   },
   {
-    hMVId: 'hMV8',
+    id: 'hMV8',
     avatar: {
       avatarImage: hMVI8,
       avatarDescription: 'Blue Banisters',
@@ -183,7 +183,7 @@ export const hotMVList = [
     },
   },
   {
-    hMVId: 'hMV9',
+    id: 'hMV9',
     avatar: {
       avatarImage: hMVI9,
       avatarDescription: 'Hạnh Phúc Là Khi',
@@ -203,7 +203,7 @@ export const hotMVList = [
     },
   },
   {
-    hMVId: 'hMV10',
+    id: 'hMV10',
     avatar: {
       avatarImage: hMVI10,
       avatarDescription: 'Nằm ngủ emru',
