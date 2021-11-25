@@ -1,6 +1,10 @@
 .playlist-suggestion {
-  &-body {
+  &-body-card {
     display: flex;
     justify-content: space-between;
+  }
+
+  &-pagination {
+    justify-content: flex-end;
   }
 }
