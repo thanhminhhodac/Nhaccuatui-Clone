@@ -3,6 +3,7 @@
   width: 300px;
   padding: 10px 0;
   border-bottom: #f3f3f3 solid 1px;
+  align-self: center;
 
   &-inner {
     display: flex;
@@ -11,8 +12,6 @@
   }
 
   &.mv-ranking-item-wrapper {
-    height: 60px;
-
     & .ordering-view-wrapper {
       position: absolute;
       left: 0;
@@ -22,8 +21,6 @@
     }
 
     &:first-child {
-      height: 168px;
-
       & .ordering-view-wrapper {
         height: 46px;
         width: 46px;
@@ -67,15 +64,11 @@
   }
 
   &.song-ranking-item-wrapper {
-    height: 48px;
-
     &:first-child {
-      height: 100px;
-
       & .ordering-view-wrapper {
         position: absolute;
         left: 0;
-        bottom: 10px;
+        bottom: 20px;
         z-index: 3;
         background-color: #e74c3c;
         color: #fff;
