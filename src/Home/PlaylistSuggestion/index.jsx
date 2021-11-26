@@ -1,7 +1,6 @@
 // lib
 import React from 'react';
 import PropTypes from 'prop-types';
-
 // components
 import Heading from '../components/Heading';
 
