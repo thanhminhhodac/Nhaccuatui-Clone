@@ -3,7 +3,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // components
 import Heading from '../components/Heading';
-
 // style
 import './style.scss';
 import PlaylistSuggestionBody from './PlaylistSuggestionBody';
