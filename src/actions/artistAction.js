@@ -26,6 +26,6 @@ export const loadArtistAction = (params) => async (dispatch) => {
     } else {
       dispatch(loadArtistFailAction());
     }
-  }, 1000);
+  }, 3000);
   dispatch({ type: ARTIST_LOAD });
 };

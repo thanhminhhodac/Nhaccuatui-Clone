@@ -16,7 +16,7 @@ const WeeklyArtistBody = ({ artists, loadArtist, isLoading, isError }) => {
 
   useEffect(() => {
     loadArtist(reload);
-    const interval = setInterval(() => setReload(!reload), 5000);
+    const interval = setInterval(() => setReload(!reload), 10000);
     return () => clearInterval(interval);
   }, [reload]);
 
