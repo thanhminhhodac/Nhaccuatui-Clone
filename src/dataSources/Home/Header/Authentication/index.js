@@ -1,12 +1,14 @@
 export const authenticationList = [
   {
     id: 'aI1',
-    label: 'Đăng nhập',
+    title: 'SignUp',
+    name: 'signup',
     className: 'btn-signin',
   },
   {
     id: 'aI2',
-    label: 'Đăng ký',
+    title: 'SignIn',
+    name: 'signin',
     className: 'btn-signup',
   },
 ];

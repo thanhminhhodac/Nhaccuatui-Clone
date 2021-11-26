@@ -1,7 +1,7 @@
 .footer-wrapper {
   grid-area: footer;
 
-  .footer-wrapper-inner {
+  &-inner {
     display: grid;
     grid-template-rows: auto auto 64px;
   }

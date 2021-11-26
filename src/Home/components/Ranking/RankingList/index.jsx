@@ -20,6 +20,7 @@ const RankingList = ({ list, rankingType }) => (
           rankingItem={item}
           ordering={index + 1}
           rankingType={rankingType}
+          key={item.id}
         />
       ))}
     </div>

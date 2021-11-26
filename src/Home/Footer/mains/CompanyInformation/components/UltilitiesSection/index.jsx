@@ -13,7 +13,7 @@ const UltilitiesSection = ({ labels, title }) => (
       <SectionHeading label={title} />
       <div className="ultilities-section-label-body">
         {labels.map((label) => (
-          <div className="ultilities-section-label-item">
+          <div className="ultilities-section-label-item" key={label}>
             <RightOutlined className="right-icon" />
             <span>{label}</span>
           </div>

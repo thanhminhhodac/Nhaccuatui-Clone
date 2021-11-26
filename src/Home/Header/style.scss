@@ -1,17 +1,21 @@
 .header {
   &-wrapper {
     grid-area: header;
+    display: flex;
+    justify-content: center;
     border-bottom: #dadada solid 1px;
     height: 56px;
     padding: 6px 90px 5px;
     text-align: center;
-  }
 
-  &-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: inherit;
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px;
+      height: inherit;
+    }
   }
 
   &-divider {
