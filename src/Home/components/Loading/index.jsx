@@ -11,7 +11,7 @@ const Loading = ({ isLoading, isError, ...props }) => {
       <Alert
         type="info"
         className="loading-alert alert-info"
-        action={<Spin tip="Loading..." />}
+        action={<Spin tip="Loading..." className="show-banner" />}
       />
     );
   }
@@ -20,7 +20,7 @@ const Loading = ({ isLoading, isError, ...props }) => {
     return (
       <Alert
         type="error"
-        action={<Empty />}
+        action={<Empty className="show-banner" />}
         className="loading-alert alert-danger"
       />
     );
