@@ -8,6 +8,7 @@ import {
 const initialState = {
   artist: null,
   isLoading: false,
+  isError: false,
 };
 
 const artistReducer = (state = initialState, action) => {
@@ -19,17 +20,21 @@ const artistReducer = (state = initialState, action) => {
         ...state,
         artist: newartist,
         isLoading: false,
+        isError: false,
       };
     }
     case ARTIST_LOAD:
       return {
         ...state,
         isLoading: true,
+        isError: false,
       };
     case ARTIST_LOAD_FAILED:
       return {
         ...state,
         artist: null,
+        isLoading: false,
+        isError: true,
       };
     default:
       return { state };

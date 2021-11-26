@@ -1,4 +1,4 @@
-import { ARTIST_LOAD, ARTIST_LOAD_SUCCESS } from './type';
+import { ARTIST_LOAD, ARTIST_LOAD_SUCCESS, ARTIST_LOAD_FAILED } from './type';
 
 import { weeklyArtistList } from '../dataSources/Home/WeeklyArtist';
 
@@ -10,7 +10,22 @@ const loadArtistSuccesAction = () => async (dispatch) => {
     },
   });
 };
-export const loadArtistAction = () => async (dispatch) => {
-  setTimeout(() => dispatch(loadArtistSuccesAction()), 1000);
+
+const loadArtistFailAction = () => async (dispatch) => {
+  dispatch({
+    type: ARTIST_LOAD_FAILED,
+    payload: {
+      data: weeklyArtistList,
+    },
+  });
+};
+export const loadArtistAction = (params) => async (dispatch) => {
+  setTimeout(() => {
+    if (params) {
+      dispatch(loadArtistSuccesAction());
+    } else {
+      dispatch(loadArtistFailAction());
+    }
+  }, 1000);
   dispatch({ type: ARTIST_LOAD });
 };
