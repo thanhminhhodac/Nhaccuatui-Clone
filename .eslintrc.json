@@ -6,7 +6,7 @@
     "jest": true
   },
   "parser": "babel-eslint",
-  "extends": ["plugin:react/recommended", "airbnb"],
+  "extends": ["airbnb", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -31,6 +31,7 @@
     "react/jsx-one-expression-per-line": [2, { "allow": "single-child" }],
     "arrow-parens": "off",
     "implicit-arrow-linebreak": "off",
-    "operator-linebreak": [2, "after"]
+    "operator-linebreak": [2, "after"],
+    "consistent-return": "off"
   }
 }
