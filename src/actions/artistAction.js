@@ -20,6 +20,7 @@ const loadArtistFailAction = () => async (dispatch) => {
   });
 };
 export const loadArtistAction = (params) => async (dispatch) => {
+  dispatch({ type: ARTIST_LOAD });
   setTimeout(() => {
     if (params) {
       dispatch(loadArtistSuccesAction());
@@ -27,5 +28,4 @@ export const loadArtistAction = (params) => async (dispatch) => {
       dispatch(loadArtistFailAction());
     }
   }, 3000);
-  dispatch({ type: ARTIST_LOAD });
 };
