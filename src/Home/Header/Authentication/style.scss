@@ -1,10 +1,11 @@
 .authentication {
   &-wrapper {
     &-inner {
-      display: flex;
+      display: grid;
       align-items: center;
-      justify-content: space-between;
+      justify-items: center;
       width: 160px;
+      grid-template-columns: 1fr 1fr;
     }
   }
 }
