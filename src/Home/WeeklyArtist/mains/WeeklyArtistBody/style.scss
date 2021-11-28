@@ -1,6 +1,9 @@
 .weekly-artis-body {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 16px;
   height: 240px;
+
+  &-inner {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 16px;
+  }
 }
