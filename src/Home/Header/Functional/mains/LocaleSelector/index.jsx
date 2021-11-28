@@ -1,22 +1,27 @@
 // libs
 import React from 'react';
+import { Select } from 'antd';
 // context
 import { useLocale } from '../../../../../contexts/LocaleContext';
+
+const { Option } = Select;
 
 const LocaleSelector = () => {
   const { locale, setLocale, localeDataSource } = useLocale();
   const { localeOption } = localeDataSource;
 
-  const handleLocaleChange = (e) => {
-    setLocale(e.target.value);
+  const handleLocaleChange = (value) => {
+    setLocale(value);
   };
 
   return (
-    <select defaultValue={locale} onChange={handleLocaleChange}>
+    <Select defaultValue={locale} onChange={handleLocaleChange}>
       {localeOption.map((option) => (
-        <option value={option.value}>{option.label}</option>
+        <Option value={option.value} key={option.value}>
+          {option.label}
+        </Option>
       ))}
-    </select>
+    </Select>
   );
 };
 
