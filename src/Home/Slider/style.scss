@@ -1,6 +1,21 @@
 .slider-wrapper {
-  text-align: center;
-  background-color: #5ace70;
-  height: 418px;
   grid-area: slider;
+  max-width: 1200px;
+  padding: 16px 0;
+  height: auto;
+
+  & .slider-carousel-dots {
+    background-color: #fff;
+  }
+
+  & .slider-image-wrapper {
+    display: grid;
+
+    &-inner {
+      align-self: center;
+      justify-self: center;
+      width: 80%;
+      height: auto;
+    }
+  }
 }
