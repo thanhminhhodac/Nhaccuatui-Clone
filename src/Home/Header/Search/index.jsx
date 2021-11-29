@@ -8,6 +8,11 @@ import './style.scss';
 // components
 import { SearchOutlined } from '@ant-design/icons';
 
+/**
+ * Returns a search in header
+ *
+ */
+
 const Search = () => {
   const [searchKey, setSearchKey] = useState('');
 

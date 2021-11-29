@@ -21,6 +21,11 @@ import {
   functionalList,
 } from '../../dataSources/Home/Header';
 
+/**
+ * Return a header of website
+ *
+ */
+
 const Header = () => (
   <div className="header-wrapper">
     <div className="header-wrapper-inner">
