@@ -14,7 +14,9 @@ const LocaleSelector = () => {
   return (
     <select defaultValue={locale} onChange={handleLocaleChange}>
       {localeOption.map((option) => (
-        <option value={option.value}>{option.label}</option>
+        <option value={option.value} key={option.label}>
+          {option.label}
+        </option>
       ))}
     </select>
   );

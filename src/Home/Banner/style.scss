@@ -1,5 +1,6 @@
 .banner-wrapper {
   grid-area: banner;
+  align-self: center;
 
   &-inner {
     display: flex;

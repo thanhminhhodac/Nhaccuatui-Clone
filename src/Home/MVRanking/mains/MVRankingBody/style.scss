@@ -1,4 +1,5 @@
 .mv-ranking-body {
-  display: block;
+  display: grid;
+  grid-template-rows: auto 1fr;
   overflow: hidden;
 }
