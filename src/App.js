@@ -1,9 +1,9 @@
 // components
 import Home from './Home';
-// contexts
-import { ProviderLocale } from './contexts/LocaleContext';
 // style
 import 'antd/dist/antd.css';
+// contexts
+import { ProviderLocale } from './contexts/LocaleContext';
 
 const App = () => (
   <div className="App">

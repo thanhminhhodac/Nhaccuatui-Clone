@@ -14,7 +14,12 @@ const RankingList = ({ list, rankingType }) => (
       `${rankingType}-list-wrapper`,
     )}
   >
-    <div className="ranking-list-wrapper-inner">
+    <div
+      className={classNames(
+        'ranking-list-wrapper-inner',
+        `${rankingType}-list-wrapper-inner`,
+      )}
+    >
       {list.map((item, index) => (
         <RankingItem
           rankingItem={item}

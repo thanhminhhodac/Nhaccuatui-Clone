@@ -13,7 +13,7 @@
   &-inner {
     display: grid;
     gap: 10px 30px;
-    grid-template-rows: repeat(6, auto) 90px auto 286px repeat(3, auto);
+    grid-template-rows: repeat(6, auto) 195px auto auto repeat(3, auto);
     grid-template-columns: 1fr 300px;
     grid-template-areas:
       "slider slider"
