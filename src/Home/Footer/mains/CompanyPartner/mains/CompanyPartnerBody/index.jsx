@@ -9,7 +9,6 @@ import './style.scss';
  * @property {string} partnerList[].pImage - The image of partnerItem
  * @property {string} partnerList[].pDescription - The description of partnerItem
  */
-
 /**
  *  @module CompanyPartnerBody - returns partnerBody of CompanyPartner
  *  @param {Object} props - properties
