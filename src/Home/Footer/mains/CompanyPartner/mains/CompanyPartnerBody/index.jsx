@@ -4,6 +4,19 @@ import PropTypes from 'prop-types';
 // style
 import './style.scss';
 
+/**
+ * @typedef {Object[]} partnerList
+ * @property {string} partnerList[].pImage - The image of partnerItem
+ * @property {string} partnerList[].pDescription - The description of partnerItem
+ */
+
+/**
+ *  @module CompanyPartnerBody - returns partnerBody of CompanyPartner
+ *  @param {Object} props - properties
+ *  @param {partnerList} props.partnerList
+ *  @return {React.ReactElement}
+ */
+
 const CompanyPartnerBody = ({ partnerList }) => (
   <div className="company-partner-body-wrapper">
     <div className="company-partner-body-wrapper-inner">
