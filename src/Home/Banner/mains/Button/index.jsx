@@ -7,6 +7,14 @@ import ButtonIcon from './mains/ButtonIcon';
 // style
 import './style.scss';
 
+/**
+ *  This is button components of the banner
+ *  @param {Object} props
+ * @param {Object} props.bannerButton - The object containing the button element
+ *  @param {string} props.bannerButton.label - The label for the button
+ *  @returns {React.ReactElement}
+ */
+
 const Button = ({ bannerButton }) => (
   <div className="banner-button-wrapper btn-banner">
     <ButtonIcon type="arrow-right" />

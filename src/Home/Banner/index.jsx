@@ -8,6 +8,11 @@ import Button from './mains/Button';
 // other
 import { bannerData } from '../../dataSources/Home/Banner';
 
+/**
+ * @module Banner - Return banner in homepage
+ * @returns {React.ReactElement}
+ */
+
 const Banner = () => (
   <div className="banner-wrapper">
     <div
