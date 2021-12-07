@@ -7,16 +7,19 @@ import CompanyContact from './mains/CompanyContact';
 // style
 import './style.scss';
 
-function index() {
-  return (
-    <div className="footer-wrapper">
-      <div className="footer-wrapper-inner">
-        <CompanyPartner />
-        <CompanyInformation />
-        <CompanyContact />
-      </div>
-    </div>
-  );
-}
+/**
+ * @module Footer - returns Footer of hompage
+ * @returns {React.ReactElement}
+ */
 
-export default index;
+const Footer = () => (
+  <div className="footer-wrapper">
+    <div className="footer-wrapper-inner">
+      <CompanyPartner />
+      <CompanyInformation />
+      <CompanyContact />
+    </div>
+  </div>
+);
+
+export default Footer;

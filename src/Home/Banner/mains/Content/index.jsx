@@ -4,6 +4,14 @@ import PropTypes from 'prop-types';
 // style
 import './style.scss';
 
+/**
+ *  @module Content - Return content of banner component
+ *  @param {Object} props - properties
+ *  @param {string} props.content - The content of the banner
+ *  @param {string} props.title - The title of the banner
+ *  @returns {React.ReactFragment}
+ */
+
 const Content = ({ content, title }) => (
   <>
     <div className="banner-content">

@@ -5,6 +5,15 @@ import classNames from 'classnames';
 // style
 import './style.scss';
 
+/**
+ * @module CompanyImage
+ * @param {Object} props
+ * @param {string} props.imageSrc
+ * @param {string} props.imageDescription
+ * @param {string} props.imageType
+ * @returns {React.ReactElement}
+ */
+
 const CompanyImage = ({ imageSrc, imageDescription, imageType }) => {
   const imageClassNames = classNames({
     'company-image-wrapper': true,

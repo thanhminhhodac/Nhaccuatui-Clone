@@ -16,11 +16,11 @@ const en = {
   localeOption: [
     {
       value: 'en',
-      label: 'English',
+      label: 'EN',
     },
     {
       value: 'vi',
-      label: 'Tiếng Việt',
+      label: 'VI',
     },
   ],
 };
